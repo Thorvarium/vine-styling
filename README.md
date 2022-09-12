@@ -31,9 +31,25 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 ### small-items.css:
 - Show more items per row in the page
 ### remove-header.css:
-- Remove the website header
+- Removes the website header
 ### remove-footer.css:
-- Remove the website footer
+- Removes the website footer
+### remove-associate-header.css:
+- Removes the website "Amazon Associates" header, in case you are an "Amazon Associate"
+### more-description-text.css:
+- Show a smaller font for each product on the grid and display 3 lines of description instead of 2
+### etv-modal-on-top.css
+- Show the ETV of the product on top of the modal instead of the bottom
+### categories-with-emojis.css
+- Show emojis on the left side of each category
+### pagination-on-top.css
+- Show the grid pagination on top instead of bottom
+### collapsable-categories.css
+- Collapses the categories on the left when not being hovered, good for when your screen is not very big
+
+
+
+
 
 ## Android
 For Android, we recommend a browser called "Kiwi Browser", this browser supports extensions. 
