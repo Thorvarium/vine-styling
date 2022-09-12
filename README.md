@@ -27,7 +27,7 @@ https://apps.apple.com/us/app/insight-browser/id1531407280
 Safari does support extensions, but it also have a limit quantity.
 
 Inside Insight Browser, go to settings and click on:
-  -See all Extensions
+  - See all Extensions
   - Add a extension
   - Give it any name
   - Change the "IF" condition to: "url matches regex"
