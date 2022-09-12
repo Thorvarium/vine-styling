@@ -58,14 +58,6 @@
   max-height: 40px !important;
 }
 
-#navbar-main, #skiplink {
-  display: none;
-}
-
-#rhf, #navFooter {
-  display: none;
-}
-
 .a-section.vvp-tab-content {
   position: relative
 }
