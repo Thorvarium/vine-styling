@@ -45,6 +45,7 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 ### collapsable-categories.css
 - Collapses the categories on the left when not being hovered, good for when your screen is not very big
 
+## Customization
 if you want to customize some specific style you can also open the files that you want to customize, copy the part that you want changed and include at the bottom of the stylebot file. This way you can tweak the numbers that you want customized.
 
 Example:
