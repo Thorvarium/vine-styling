@@ -48,38 +48,7 @@
 }
 
 /* emoji list: https://html-css-js.com/html/character-codes/ */
-
-.a-link-normal[href$="1055398"]:before { content: "🏠";}  /* home & kitchen */
-.a-link-normal[href$="7141123011"]:before { content: "👚";} /* Clothing & Shoe Jewelry */
-.a-link-normal[href$="228013"]:before { content: "🔨";} /* Tools & Home Improvement */
-.a-link-normal[href$="165793011"]:before { content: "🎈"; } /* Toys & Games */
-.a-link-normal[href$="172282"]:before { content: "💻"; } /* Electronics */
-.a-link-normal[href$="3760901"]:before { content: "👨‍⚕️"; } /* Health & Household */
-.a-link-normal[href$="3375251"]:before { content: "⚾"; } /* Sports & Outdoors */
-.a-link-normal[href$="2972638011"]:before { content: "🌳"; } /* Patio, Lawn & Garden */
-.a-link-normal[href$="1064954"]:before { content: "📎"; }  /* Office Products */ 
-.a-link-normal[href$="2619533011"]:before { content: "🐈"; } /* Pet Supplies */
-.a-link-normal[href$="2335752011"]:before { content: "📱"; } /* Cell Phones & Accessories */ 
-.a-link-normal[href$="3760911"]:before { content: "💄"; } /* Beauty & Personal care */
-.a-link-normal[href$="15684181"]:before { content: "🚐"; } /* Automotive */
-.a-link-normal[href$="2617941011"]:before { content: "🎨"; } /* Arts, crafts & Sewing */
-.a-link-normal[href$="165796011"]:before { content: "👶"; } /* Baby Products */
-.a-link-normal[href$="16310091"]:before { content: "🔬"; } /* Industrial & Scientific */
-.a-link-normal[href$="11091801"]:before { content: "🎸"; } /* Musical Instruments */
-.a-link-normal[href$="468642"]:before { content: "🎮"; } /* Video Games */
-.a-link-normal[href$="16310101"]:before { content: "🍎"; } /* Grocery * Gourmet food */
-.a-link-normal[href$="11260432011"]:before { content: "🧤"; } /* Handmade Products */
-.a-link-normal[href$="2619525011"]:before { content: "📻"; } /* Appliances */
-.a-link-normal[href$="283155"]:before { content: "📓"; } /* Books */
-.a-link-normal[href$="229534"]:before { content: "💽"; } /* Software */
-
-#vvp-browse-nodes-container {
-    width: 270px !important;
-}
-
-#vvp-browse-nodes-container .parent-node {
-    width: 245px !important;
-}
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/categories-with-emojis.css);
 
 #vvp-items-button-container {
     width: 100% !important;
@@ -159,21 +128,11 @@
     right: 16px;
 }
 
-.a-popover.a-popover-modal.a-declarative.a-popover-modal-fixed-height {
-    height: calc(100% - 100px) !important;
-    width: 100%;
-    top: 50px !important;
-    right: 0px;
-    left: 0px !important;
-    padding: 0px !important;
-}
-
 .vvp-details-btn .a-button-text {
     padding: 0.5px 0.25px;
-  }
+}
 
 /* RFY, AFA, AI */
-
 #vvp-items-button--recommended a,
 #vvp-items-button--all a,
 #vvp-items-button--seller a {
@@ -203,6 +162,15 @@
 
 
 /* PRODUCT MODAL */
+.a-popover.a-popover-modal.a-declarative.a-popover-modal-fixed-height {
+    height: calc(100% - 100px) !important;
+    width: 100%;
+    top: 50px !important;
+    right: 0px;
+    left: 0px !important;
+    padding: 0px !important;
+}
+
 #vvp-product-details-modal--main {
   flex-direction: column;
 }
