@@ -130,6 +130,7 @@
   height: 40px !important;
 }
 
+/* Pagination styles */
 .a-pagination {
   display: flex;
   justify-content: center;  
@@ -152,12 +153,23 @@
     height: 48.6px !important;
     color: transparent !important;
 }
+
+.a-pagination li:first-child,
+.a-pagination li:last-child{
+    color: transparent !important;
+}
+
 .a-pagination li .larr {
     color: black !important;
     position: absolute;
     top: 15px;
     right: 16px;
 }
+
+.a-pagination li.a-disabled {
+  padding: unset !important;
+}
+
 
 .vvp-details-btn .a-button-text {
     padding: 0.5px 0.25px;
