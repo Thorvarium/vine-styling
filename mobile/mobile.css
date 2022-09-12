@@ -172,6 +172,37 @@
     padding: 0.5px 0.25px;
   }
 
+/* RFY, AFA, AI */
+
+#vvp-items-button--recommended a,
+#vvp-items-button--all a,
+#vvp-items-button--seller a {
+  color: transparent;
+}
+
+#vvp-items-button--recommended a::before,
+#vvp-items-button--all a::before,
+#vvp-items-button--seller a::before {
+    color: black !important;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#vvp-items-button--recommended a::before {
+    content: "RFY" !important;
+}
+
+#vvp-items-button--all a::before {
+    content: "AFA" !important;
+}
+
+#vvp-items-button--seller a::before {
+    content: "AI" !important;
+}
+
+
+/* PRODUCT MODAL */
 #vvp-product-details-modal--main {
   flex-direction: column;
 }
@@ -183,6 +214,9 @@
     left: 18px;
 }
 
+
+
+/* PRODUCT AND REVIEW PAGES */
 #vvp-product-details-img-container,
 #vvp-product-details-img-container img {
   height: 75px;
