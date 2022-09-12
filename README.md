@@ -70,7 +70,7 @@ This will make the items even smaller
 # Android
 For Android, we recommend a browser called "Kiwi Browser", this browser supports extensions. 
 
-Google chrome does not support extenions on android and firefox only have a limited quantity of extensions.
+Google chrome does not support extensions on android and firefox only have a limited quantity of extensions.
 
 https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=en_US&gl=US
 
