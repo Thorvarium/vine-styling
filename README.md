@@ -5,7 +5,9 @@ To change vine styles you can install a browser extensions that inject CSS for y
 ## PC
 A popular one for desktop (PC) on chrome and firefox is called stylebot, but you can use any extension that supports css injection.
 Install with the links below depending on your browser:
+
 https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en-US
+
 https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/
 
 ## Android
