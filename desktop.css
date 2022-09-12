@@ -117,6 +117,6 @@
 #vvp-product-details-modal--tax-value {
     position: absolute !important;
     top: 20px !important;
-    z-index: 100;
-    left: 180px;
+    z-index: 101;
+    left: 18px;
 }
