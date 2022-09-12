@@ -24,7 +24,7 @@ For iPhone, we recommend a browser called "Insight Browser", this browser suppor
 
 https://apps.apple.com/us/app/insight-browser/id1531407280
 
-Safari does support extensions, but it also have a limit quantity.
+Safari does support extensions, but it also have a limited quantity.
 
 Inside Insight Browser, go to settings and click on:
   - See all Extensions
