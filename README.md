@@ -28,6 +28,13 @@ https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/
 Those are the public styles that we created, if you don't want all of them you can remove the line that represents the functionality that you do not want.
 For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/pagination-on-top.css);``` makes the pagination to be on the top of the page, just don't include this line if you dont want that.
 
+### small-items.css:
+- Show more items per row in the page
+### remove-header.css:
+- Remove the website header
+### remove-footer.css:
+- Remove the website footer
+
 ## Android
 For Android, we recommend a browser called "Kiwi Browser", this browser supports extensions. 
 
