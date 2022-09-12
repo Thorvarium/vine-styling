@@ -45,7 +45,24 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 ### collapsable-categories.css
 - Collapses the categories on the left when not being hovered, good for when your screen is not very big
 
+if you want to customize some specific style you can also open the files that you want to customize, copy the part that you want changed and include at the bottom of the stylebot file. This way you can tweak the numbers that you want customized.
 
+Example:
+
+```
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/small-items.css);
+/* ... all other imports ... */
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/collapsable-categories.css);
+
+#vvp-items-grid {
+  grid-template-columns: repeat(auto-fill,minmax(75px,auto)) !important;
+}
+
+#vvp-items-grid .vvp-item-tile .vvp-item-tile-content {
+  width: 75px !important;
+}
+```
+This will make the items even smaller
 
 
 
