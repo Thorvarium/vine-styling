@@ -1,3 +1,25 @@
+.a-section.vvp-items-button-and-search-container {
+  flex-direction: column !important;
+}
+
+.vvp-container-right-align {
+  margin-top: 10px !important;
+  width: 100% !important;
+  flex-grow: 1 !important;
+}
+
+.a-icon-search {
+  display: none;
+}
+
+.a-search {
+  flex-grow: 1;
+}
+
+#vvp-search-text-input {
+  width: 100% !important;
+}
+
 #nav-main, #vvp-logo-link {
   display: none;
 }
@@ -10,6 +32,8 @@
   margin: 0px !important;
 }
 
+
+
 #a-page > div.a-container.vvp-body > div.a-tab-container.vvp-tab-set-container > ul {
   margin-bottom: 0px !important;
 }
@@ -21,10 +45,6 @@
 .vvp-header-links-container a,
 .a-tab-heading a {
   font-size: 12px !important;
-}
-
-.a-section vvp-items-button-and-search-container {
-  flex-direction: column !important;
 }
 
 /* emoji list: https://html-css-js.com/html/character-codes/ */
