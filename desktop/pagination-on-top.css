@@ -1,3 +1,7 @@
+.a-section.vvp-tab-content {
+  position: relative
+}
+
 .a-pagination {
   position: absolute;
   top: 0px;
