@@ -1,0 +1,21 @@
+#vvp-browse-nodes-container {
+  transition: width 0.5s;
+}
+#vvp-browse-nodes-container:not(:hover) {
+  width: 80px !important;
+}
+#vvp-browse-nodes-container:not(:hover) .parent-node {
+  height: 15px !important;
+}
+#vvp-browse-nodes-container:not(:hover) .parent-node .selectedNode~span {
+  font-weight: bold;
+}
+#vvp-browse-nodes-container:not(:hover) .child-node {
+  display: none;
+}
+#vvp-browse-nodes-container:not(:hover) .parent-node a {
+  font-size: 0;
+}
+#vvp-browse-nodes-container:not(:hover) .parent-node a:before {
+  font-size: 15px;
+} 
