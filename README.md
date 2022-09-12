@@ -25,4 +25,4 @@ Inside Insight Browser, go to settings and click on:
   - Change the "IF" condition to: "url matches regex"
   - give it the value: ```^https:\/\/www.amazon.com\/vine```
   - change the "then" condition to "inject Css from URL"
-  - use the url: https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/mobile.css
+  - use the url: ```https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/mobile.css```
