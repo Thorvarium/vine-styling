@@ -10,6 +10,24 @@ https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdale
 
 https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/
 
+- Open stylebot options and go to the tab "Styles"
+- Click at "Add a new style..."
+- in the "Enter URL..." field use: ```https://www.amazon.com/vine*```
+- in the text area below insert the styles that you desire:
+```
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/small-items.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/remove-header.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/remove-footer.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/remove-associate-header.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/more-description-text.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/etv-modal-on-top.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/categories-with-emojis.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/pagination-on-top.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/collapsable-categories.css);
+```
+Those are the public styles that we created, if you don't want all of them you can remove the line that represents the functionality that you do not want.
+For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/pagination-on-top.css);``` makes the pagination to be on the top of the page, just don't include this line if you dont want that.
+
 ## Android
 For Android, we recommend a browser called "Kiwi Browser", this browser supports extensions. 
 
