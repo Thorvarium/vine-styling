@@ -7,6 +7,7 @@ A popular one for desktop (PC) on chrome and firefox is called stylebot, but you
 Install with the links below depending on your browser:
 
 https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en-US
+
 https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/
 
 ## Android
