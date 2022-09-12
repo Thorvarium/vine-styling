@@ -20,7 +20,9 @@ https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=en_US&g
 Inside kiwi browser you can install "Stylebot" as well
 
 ## iPhone
-For iPhone, we recommend a browser called "Insight Browser", this browser supports extensions.
+For iPhone, we recommend a browser called "Insight Browser", this browser supports extensions. 
+
+https://apps.apple.com/us/app/insight-browser/id1531407280
 
 Safari does support extensions, but it also have a limit quantity.
 
