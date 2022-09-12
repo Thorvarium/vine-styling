@@ -58,7 +58,7 @@ https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=en_US&g
 
 Inside kiwi browser you can install "Stylebot" as well
 
-- Download the file https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/import-android.json here from the github
+- Download the file https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/import-android.json here from the github (you can hold your finger on the link and click "Download Link")
 - Open stylebot options and go to the tab "Sync" (Tab Styles does not work very well on mobile, not sure why)
 - Click on "Import" and select the downloaded file
 
