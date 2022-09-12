@@ -1,0 +1,211 @@
+#nav-main, #vvp-logo-link {
+  display: none;
+}
+
+.nav-mobile.nav-ftr-batmobile {
+  display: none;
+}
+
+.vvp-tab-set-container [data-a-name="vine-items"] .a-box-inner .vvp-tab-content .vvp-items-button-and-search-container {
+  margin: 0px !important;
+}
+
+#a-page > div.a-container.vvp-body > div.a-tab-container.vvp-tab-set-container > ul {
+  margin-bottom: 0px !important;
+}
+
+#vvp-header {
+  justify-content: center;
+}
+
+.vvp-header-links-container a,
+.a-tab-heading a {
+  font-size: 12px !important;
+}
+
+/* emoji list: https://html-css-js.com/html/character-codes/ */
+
+.a-link-normal[href$="1055398"]:before { content: "🏠";}  /* home & kitchen */
+.a-link-normal[href$="7141123011"]:before { content: "👚";} /* Clothing & Shoe Jewelry */
+.a-link-normal[href$="228013"]:before { content: "🔨";} /* Tools & Home Improvement */
+.a-link-normal[href$="165793011"]:before { content: "🎈"; } /* Toys & Games */
+.a-link-normal[href$="172282"]:before { content: "💻"; } /* Electronics */
+.a-link-normal[href$="3760901"]:before { content: "👨‍⚕️"; } /* Health & Household */
+.a-link-normal[href$="3375251"]:before { content: "⚾"; } /* Sports & Outdoors */
+.a-link-normal[href$="2972638011"]:before { content: "🌳"; } /* Patio, Lawn & Garden */
+.a-link-normal[href$="1064954"]:before { content: "📎"; }  /* Office Products */ 
+.a-link-normal[href$="2619533011"]:before { content: "🐈"; } /* Pet Supplies */
+.a-link-normal[href$="2335752011"]:before { content: "📱"; } /* Cell Phones & Accessories */ 
+.a-link-normal[href$="3760911"]:before { content: "💄"; } /* Beauty & Personal care */
+.a-link-normal[href$="15684181"]:before { content: "🚐"; } /* Automotive */
+.a-link-normal[href$="2617941011"]:before { content: "🎨"; } /* Arts, crafts & Sewing */
+.a-link-normal[href$="165796011"]:before { content: "👶"; } /* Baby Products */
+.a-link-normal[href$="16310091"]:before { content: "🔬"; } /* Industrial & Scientific */
+.a-link-normal[href$="11091801"]:before { content: "🎸"; } /* Musical Instruments */
+.a-link-normal[href$="468642"]:before { content: "🎮"; } /* Video Games */
+.a-link-normal[href$="16310101"]:before { content: "🍎"; } /* Grocery * Gourmet food */
+.a-link-normal[href$="11260432011"]:before { content: "🧤"; } /* Handmade Products */
+.a-link-normal[href$="2619525011"]:before { content: "📻"; } /* Appliances */
+.a-link-normal[href$="283155"]:before { content: "📓"; } /* Books */
+.a-link-normal[href$="229534"]:before { content: "💽"; } /* Software */
+
+#vvp-browse-nodes-container {
+    width: 270px !important;
+}
+
+#vvp-browse-nodes-container .parent-node {
+    width: 245px !important;
+}
+
+#vvp-items-button-container {
+    width: 100% !important;
+}
+
+#vvp-items-button-container .a-button-toggle.a-button{
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 33% !important;
+}
+
+#vvp-items-button-container .a-button-toggle.a-button a{
+    font-size: 12px !important;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+    justify-content: center !important;
+}
+
+.vvp-items-container {
+    flex-direction: column !important;
+}
+
+
+#vvp-items-grid {
+  grid-template-columns: repeat(auto-fill,minmax(100px,auto)) !important;
+}
+
+#vvp-items-grid .vvp-item-tile .vvp-item-tile-content {
+  width: 100px !important;
+}
+
+#vvp-items-grid .vvp-item-tile .vvp-item-tile-content > * {
+  margin: 0 !important;
+}
+
+#vvp-items-grid .vvp-item-tile .vvp-item-tile-content > img {
+  margin-top: 0.5rem !important;
+}
+
+#vvp-items-grid .vvp-item-tile .vvp-item-tile-content .a-button:not(.a-button-toggle) {
+  border-radius: 0 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+#vvp-items-grid .vvp-item-tile .vvp-item-tile-content>.vvp-item-product-title-container {
+  height: 40px !important;
+}
+
+.a-pagination {
+  display: flex;
+  justify-content: center;  
+}
+
+.a-pagination li {
+  width: auto !important;
+  margin: 0px !important;
+}
+
+.a-pagination li a {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.a-pagination li:first-child a,
+.a-pagination li:last-child a {
+    width: 50px !important;
+    overflow: hidden;
+    height: 48.6px !important;
+    color: transparent !important;
+}
+.a-pagination li .larr {
+    color: black !important;
+    position: absolute;
+    top: 15px;
+    right: 16px;
+}
+
+.a-popover.a-popover-modal.a-declarative.a-popover-modal-fixed-height {
+    height: calc(100% - 100px) !important;
+    width: 100%;
+    top: 50px !important;
+    right: 0px;
+    left: 0px !important;
+    padding: 0px !important;
+}
+
+#vvp-product-details-modal--main {
+  flex-direction: column;
+}
+
+#vvp-product-details-modal--tax-value {
+    position: absolute !important;
+    top: 20px !important;
+    z-index: 100;
+    left: 18px;
+}
+
+#vvp-product-details-img-container,
+#vvp-product-details-img-container img {
+  height: 75px;
+}
+
+
+#vvp-browse-nodes-container, 
+#vvp-browse-nodes-container .parent-node {
+  width: unset !important;
+}
+
+.vvp-reviews-table .vvp-reviews-table--row,
+.vvp-orders-table .vvp-orders-table--row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vvp-reviews-table tbody,
+.vvp-orders-table tbody {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+.vvp-reviews-table--heading-row,
+.vvp-orders-table--heading-row {
+  display: none !important;
+}
+
+.vvp-reviews-table td,
+.vvp-orders-table td {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.vvp-reviews-table td.vvp-reviews-table--image-col,
+.vvp-orders-table td.vvp-orders-table--image-col {
+  padding-top: 10px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.vvp-reviews-table td.vvp-reviews-table--image-col img,
+.vvp-orders-table td.vvp-orders-table--image-col img{
+  height: 75px;
+}
+
+.vvp-reviews-table--actions-col,
+.vvp-orders-table--actions-col {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
