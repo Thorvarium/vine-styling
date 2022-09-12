@@ -207,9 +207,9 @@
 /* PRODUCT MODAL */
 .a-popover.a-popover-modal.a-declarative.a-popover-modal-fixed-height {
     height: calc(100% - 100px) !important;
-    width: 100%;
+    width: 100% !important;
     top: 50px !important;
-    right: 0px;
+    right: 0px !important;
     left: 0px !important;
     padding: 0px !important;
 }
