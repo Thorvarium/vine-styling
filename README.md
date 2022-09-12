@@ -14,7 +14,7 @@ Google chrome does not support extenions on android and firefox only have a limi
 https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=en_US&gl=US
 Inside kiwi browser you can install "Stylebot" as well
 
-## Iphone
+## iPhone
 For iPhone, we recommend a browser called "Insight Browser", this browser supports extensions.
 Safari does support extensions, but it also have a limit quantity.
 
