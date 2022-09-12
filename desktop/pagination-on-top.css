@@ -1,0 +1,6 @@
+.a-pagination {
+  position: absolute;
+  top: 0px;
+  right: 50%;
+  transform: translateX(50%);
+}
