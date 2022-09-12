@@ -1,0 +1,216 @@
+html,
+.vvp-body,
+.vvp-body .a-tab-content,
+ul.a-tabs,
+.a-pagination {
+    background-color: black !important;
+}
+
+div[role="tabpanel"],
+#vvp-items-grid .vvp-item-tile {
+    border: none !important;
+}        
+
+.a-truncate-cut,
+.a-truncate-full,
+.a-link-normal {
+    color: #d2d2d2 !important;
+}        
+
+.a-button.a-button-primary.vvp-details-btn {
+    background: #c7c7c7 !important;
+    border: none !important;
+}
+
+#vvp-browse-nodes-container {
+    color: #888888;
+}
+
+#vvp-items-button-container .a-button .a-button-inner {
+    background: #c7c7c7 !important;
+    color: #c7c7c7 !important;
+}
+
+#vvp-items-button-container .a-button {
+    border-radius: 0 !important;
+}
+
+#vvp-items-button-container .a-button.a-button-selected,
+#vvp-items-button-container .a-button.a-button-selected .a-button-inner a {
+    background: #C7511F !important;
+    color: #c7c7c7  !important;
+}
+
+
+.a-color-base.a-link-normal.selectedNode {
+    color: #C7511F !important;
+}
+
+a[role="tab"] {
+    color: #c7c7c7 !important;
+}
+
+ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
+    background: transparent !important;
+    color: #C7511F !important;
+    border-right: none !important;
+}
+
+ul.a-tabs {
+    border: none !important;
+}
+
+
+#vvp-logo-link img {
+    filter: invert(100%);
+    mix-blend-mode: luminosity;
+    display: none;
+}
+
+.vvp-header-links-container a {
+    color: #c7c7c7 !important;
+}
+
+.a-pagination {
+    border-color: #363636 !important;
+}
+.a-pagination a {
+    background: #c7c7c7 !important;
+    border-color: #c7c7c7 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.a-pagination li.a-disabled {
+    background: #5b5b5b !important;
+    color: #878787 !important;
+}
+
+.a-pagination li.a-selected a {
+    background: #c45500 !important;
+    color: #363636 !important;
+    border-color: #c45500 !important;
+}
+
+.a-popover-wrapper {
+    border-radius: 0 !important;
+    background-color: black !important;
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.a-popover-inner {
+    background-color: black !important;
+    color: #c7c7c7 !important;
+    padding: 0px !important;
+    padding-bottom: 40px !important;
+    flex-grow: 1;
+}
+
+.a-popover-header, .a-popover-footer {
+    border-radius: 0 !important;
+}
+
+.a-popover-footer {
+    padding: 18px 24px 14px !important;
+    pointer-events: none;
+}
+
+.a-popover-footer .a-button {
+    pointer-events: auto;
+}
+
+.a-popover-footer::after,
+.a-popover-footer::before,
+.a-popover-wrapper::after {
+    content: unset !important;
+    display: none;
+}
+
+#vvp-product-description-expander::after,
+#vvp-product-description-expander::before {
+    display: none;
+}
+
+#vvp-product-details-modal--feature-bullets,
+#vvp-product-details-modal--feature-bullets .a-list-item {
+    color: #c7c7c7 !important;
+}
+
+.a-expander-content-fade {
+    background: transparent !important;
+}
+
+.a-expander-partial-collapse-header {
+    background-color: #4a4848 !important;
+}
+
+.a-expander-partial-collapse-header .a-expander-prompt,
+.vvp-estimated-tax-label {
+    color: white !important;
+}
+
+#vvp-product-details-modal--request-btn,
+#vvp-product-details-modal--back-btn-announce,
+#vvp-product-details-modal--back-btn,
+#vvp-shipping-address-modal--back-btn,
+#vvp-shipping-address-modal--submit-btn {
+    border-radius: 0px !important;
+}
+
+.a-popover-header {
+    border: 0px !important;
+    background: #4a4848 !important;
+    border-radius: 0 !important;
+    padding: 0px !important;
+}
+
+.a-popover-header-content {
+    opacity: 0;
+}
+
+#vvp-product-details-modal--tax-value {
+    position: absolute;
+    margin: 0;
+    left: 10px;
+    font-size: 1.5rem;
+    top: 0px;
+    color: white;
+    z-index: 100;
+}
+
+.a-button-close:focus {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.a-expander-content-expanded {
+    padding-bottom: 40px !important;
+}
+
+.a-button-dropdown {
+    border-radius: 0 !important;
+}
+
+.a-dropdown-item {
+    background-color: white !important;
+}
+
+.vvp-address-option .a-label.a-radio-label {
+    color: white;
+}
+
+.vvp-address-selected {
+    background-color: #ff7f00 !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+#vvp-items-grid-container > p {
+    color: white;
+}
+
+#vvp-product-details-modal--product-title {
+    text-decoration: underline;
+}
