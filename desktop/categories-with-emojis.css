@@ -31,3 +31,8 @@
 #vvp-browse-nodes-container .parent-node {
     width: 245px !important;
 }
+
+#vvp-browse-nodes-container .child-node {
+  margin-left: 20px !important;
+  width: 225px !important;
+}
