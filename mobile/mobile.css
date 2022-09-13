@@ -278,9 +278,9 @@
 
 .vvp-reviews-table--actions-col,
 .vvp-orders-table--actions-col {
-  width: 100%;
-  display: flex;
-  align-items: center;
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
 #vvp-items-grid {
