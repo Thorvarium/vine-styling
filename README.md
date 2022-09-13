@@ -70,9 +70,9 @@ This will make the items even smaller
 # Android
 For Android, we recommend a browser called "Kiwi Browser", this browser supports extensions. 
 
-Google chrome does not support extensions on android and firefox only have a limited quantity of extensions.
+(Google chrome does not support extensions on android and firefox only have a limited quantity of extensions)
 
-https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=en_US&gl=US
+download: https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=en_US&gl=US
 
 Inside kiwi browser you can install "Stylebot" as well
 
@@ -84,9 +84,9 @@ Inside kiwi browser you can install "Stylebot" as well
 # iPhone
 For iPhone, we recommend a browser called "Insight Browser", this browser supports extensions. 
 
-https://apps.apple.com/us/app/insight-browser/id1531407280
+download: https://apps.apple.com/us/app/insight-browser/id1531407280
 
-Safari does support extensions, but it also have a limited quantity.
+(Safari does support extensions, but it also have a limited quantity)
 
 Inside Insight Browser, go to settings and click on:
   - See all Extensions
