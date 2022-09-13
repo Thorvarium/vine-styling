@@ -85,6 +85,26 @@
     width: 100% !important;
 }
 
+#vvp-browse-nodes-container .child-node {
+  margin-left: 20px !important;
+  width: 225px !important;
+}
+
+/* STRIPPED CATEGORIES */
+#vvp-browse-nodes-container .parent-node {
+  background-color: #f3f3f3 !important;
+}
+#vvp-browse-nodes-container .parent-node:nth-child(odd) {
+  background-color: #e1e1e1 !important;
+}
+
+#vvp-browse-nodes-container .parent-node, #vvp-browse-nodes-container .child-node  {
+  display: flex !important;
+}
+#vvp-browse-nodes-container .parent-node a, #vvp-browse-nodes-container .child-node a {
+  flex-grow: 1 !important;
+}
+
 #vvp-items-button-container .a-button-toggle.a-button{
     margin: 0px !important;
     padding: 0px !important;
