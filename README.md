@@ -22,6 +22,7 @@ https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/categories-with-emojis.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/pagination-on-top.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/collapsable-categories.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/striped-categories.css);
 ```
 Those are the public styles that we created, if you don't want all of them you can remove the line that represents the functionality that you do not want.
 For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/pagination-on-top.css);``` makes the pagination to be on the top of the page, just don't include this line if you dont want that.
@@ -44,6 +45,8 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 - Show the grid pagination on top instead of bottom
 ### collapsable-categories.css
 - Collapses the categories on the left when not being hovered, good for when your screen is not very big
+### striped-categories.css
+- Change alignment and background color for the categories to improve readability
 
 ## Customization
 if you want to customize some specific style you can also open the files that you want to customize, copy the part that you want changed and include at the bottom of the stylebot file. This way you can tweak the numbers that you want customized.
