@@ -225,7 +225,17 @@
     left: 18px;
 }
 
+#vvp-product-details-img-container {
+   width: unset !important;
+   height: 150px !important;
+   display: flex !important;
+   justify-content: center !important;
+   position: relative !important;
+}
 
+#vvp-product-details-img-container img{
+   height: 150px !important;
+}
 
 /* PRODUCT AND REVIEW PAGES */
 #vvp-product-details-img-container,
