@@ -73,21 +73,12 @@
 .a-link-normal[href$="283155"]:before { content: "📓"; } /* Books */
 .a-link-normal[href$="229534"]:before { content: "💽"; } /* Software */
 
-#vvp-browse-nodes-container {
-    width: 270px !important;
-}
-
-#vvp-browse-nodes-container .parent-node {
-    width: 245px !important;
-}
-
 #vvp-items-button-container {
     width: 100% !important;
 }
 
 #vvp-browse-nodes-container .child-node {
   margin-left: 20px !important;
-  width: 225px !important;
 }
 
 /* STRIPPED CATEGORIES */
@@ -265,7 +256,8 @@
 
 
 #vvp-browse-nodes-container, 
-#vvp-browse-nodes-container .parent-node {
+#vvp-browse-nodes-container .parent-node,
+#vvp-browse-nodes-container .child-node{
   width: unset !important;
 }
 
