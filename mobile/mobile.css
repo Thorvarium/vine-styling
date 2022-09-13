@@ -86,7 +86,7 @@
   background-color: #f3f3f3 !important;
 }
 #vvp-browse-nodes-container .parent-node:nth-child(odd) {
-  background-color: #e1e1e1 !important;
+  background-color: white !important;
 }
 
 #vvp-browse-nodes-container .parent-node, #vvp-browse-nodes-container .child-node  {
