@@ -3,6 +3,7 @@
 }
 #vvp-browse-nodes-container:not(:hover) {
   width: 80px !important;
+  margin-right: 20px;
 }
 #vvp-browse-nodes-container:not(:hover) .parent-node {
   height: 15px !important;
