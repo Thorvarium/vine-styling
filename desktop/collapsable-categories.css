@@ -1,5 +1,5 @@
 #vvp-browse-nodes-container {
-  transition: width 0.5s;
+  transition: width 0.5s !important;
 }
 #vvp-browse-nodes-container:not(:hover) {
   width: 80px !important;
@@ -8,14 +8,14 @@
   height: 15px !important;
 }
 #vvp-browse-nodes-container:not(:hover) .parent-node .selectedNode~span {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 #vvp-browse-nodes-container:not(:hover) .child-node {
-  display: none;
+  display: none !important;
 }
 #vvp-browse-nodes-container:not(:hover) .parent-node a {
-  font-size: 0;
+  font-size: 0 !important;
 }
 #vvp-browse-nodes-container:not(:hover) .parent-node a:before {
-  font-size: 15px;
+  font-size: 15px !important;
 } 
