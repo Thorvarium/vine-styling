@@ -1,7 +1,7 @@
 #vvp-browse-nodes-container .parent-node {
   background-color: #f3f3f3 !important;
 }
-#vvp-browse-nodes-container .parent-node:nth-child(odd) {
+#vvp-browse-nodes-container .parent-node:nth-of-type(odd) {
   background-color: white !important;
 }
 
