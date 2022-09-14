@@ -6,6 +6,7 @@
 }
 #vvp-browse-nodes-container:not(:hover) .parent-node {
   height: 15px !important;
+  width: unset !important;
 }
 #vvp-browse-nodes-container:not(:hover) .parent-node .selectedNode~span {
   font-weight: bold !important;
