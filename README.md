@@ -23,6 +23,7 @@ https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/pagination-on-top.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/collapsable-categories.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/striped-categories.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/ghost-limited-availability.css);
 ```
 Those are the public styles that we created, if you don't want all of them you can remove the line that represents the functionality that you do not want.
 For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/pagination-on-top.css);``` makes the pagination to be on the top of the page, just don't include this line if you dont want that.
@@ -47,6 +48,8 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 - Collapses the categories on the left when not being hovered, good for when your screen is not very big
 ### striped-categories.css
 - Change alignment and background color for the categories to improve readability
+### ghost-limited-availability.css
+- Change the text "Limited Availability" on the modal to be a ghost icon on the bottom left
 
 ## Customization
 if you want to customize some specific style you can also open the files that you want to customize, copy the part that you want changed and include at the bottom of the stylebot file. This way you can tweak the numbers that you want customized.
