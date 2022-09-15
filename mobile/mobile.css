@@ -248,6 +248,23 @@
    height: 150px !important;
 }
 
+/* GHOST ICON */
+#vvp-product-details-modal--limited-quantity {
+    position: absolute !important;
+    bottom: -28px !important;
+    z-index: 101 !important;
+    right: 8px !important;
+    color: transparent !important;
+    width: 41.2px !important;
+}
+
+#vvp-product-details-modal--limited-quantity::before {
+  content: "👻";
+  font-size: 30px;
+  text-shadow: 0px 0px 20px #ff0000 !important;
+  color: white !important;
+}
+
 /* PRODUCT AND REVIEW PAGES */
 #vvp-product-details-img-container,
 #vvp-product-details-img-container img {
