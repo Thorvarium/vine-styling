@@ -25,6 +25,7 @@
 
 #vvp-items-grid {
   grid-template-columns: repeat(auto-fill,minmax(110px,auto)) !important;
+  margin-bottom: 0px !important;
 }
 
 #vvp-items-grid .vvp-item-tile .vvp-item-tile-content {
