@@ -1,0 +1,32 @@
+/* RFY, AFA, AI */
+#vvp-items-button--recommended a,
+#vvp-items-button--all a,
+#vvp-items-button--seller a {
+  color: transparent;
+  width: 75px;
+}
+
+#vvp-items-button--recommended a::before,
+#vvp-items-button--all a::before,
+#vvp-items-button--seller a::before {
+    color: black !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    width: 100% !important;
+    left: 0px !important;
+    text-align: center !important;
+    padding: 9px 0px !important;
+}
+
+#vvp-items-button--recommended a::before {
+    content: "RFY" !important;
+}
+
+#vvp-items-button--all a::before {
+    content: "AFA" !important;
+}
+
+#vvp-items-button--seller a::before {
+    content: "AI" !important;
+}
