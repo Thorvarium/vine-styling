@@ -72,6 +72,7 @@
 .a-link-normal[href$="2619525011"]:before { content: "📻"; } /* Appliances */
 .a-link-normal[href$="283155"]:before { content: "📓"; } /* Books */
 .a-link-normal[href$="229534"]:before { content: "💽"; } /* Software */
+.a-link-normal[href$="2625373011"]:before { content: "🎥"; } /* Movioes & TV */
 
 #vvp-items-button-container {
     width: 100% !important;
