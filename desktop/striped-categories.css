@@ -1,16 +1,12 @@
 #vvp-browse-nodes-container .parent-node {
-  background-color: #f3f3f3 !important;
+  background-color: white
 }
-#vvp-browse-nodes-container .parent-node:nth-of-type(odd) {
-  background-color: white !important;
+#vvp-browse-nodes-container > div:nth-child(odd) {
+    background-color: #f3f3f3 !important;
 }
-
 #vvp-browse-nodes-container .parent-node, #vvp-browse-nodes-container .child-node  {
   display: flex !important;
 }
 #vvp-browse-nodes-container .parent-node a, #vvp-browse-nodes-container .child-node a {
   flex-grow: 1 !important;
-}
-#vvp-browse-nodes-container > div:nth-child(odd) {
-    background-color: #f3f3f3 !important;
 }
