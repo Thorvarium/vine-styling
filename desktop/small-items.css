@@ -5,6 +5,7 @@
 .a-container.vvp-body {
   padding: 0px;
   max-width: unset !important;
+  min-width: unset !important;
 }
 
 #vvp-logo-link img {
