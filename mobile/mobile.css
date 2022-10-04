@@ -212,11 +212,11 @@
 }
 
 .a-pagination li:first-child a:before {
-  content: "⬅️" !important;
+  content: "👈" !important;
 }
 
 .a-pagination li:last-child a:before {
-  content: "➡️" !important;
+  content: "👉" !important;
 }
 
 .a-pagination li {
@@ -228,6 +228,11 @@
     margin: 0px !important;
     height: 100%;
     line-height: 40px !important;
+}
+
+.vvp-details-btn {
+  padding: 0.25rem 0;
+  margin: 0.25rem 0rem !important;
 }
 
 .vvp-details-btn .a-button-text {
