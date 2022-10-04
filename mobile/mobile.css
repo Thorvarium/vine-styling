@@ -24,6 +24,10 @@
   display: none;
 }
 
+.a-tabs {
+  margin: 0px !important; 
+}
+
 .nav-mobile.nav-ftr-batmobile {
   display: none;
 }
