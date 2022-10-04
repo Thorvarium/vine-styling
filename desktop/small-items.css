@@ -50,7 +50,7 @@
 }
 
 #vvp-items-grid .vvp-item-tile .vvp-item-tile-content .a-button:not(.a-button-toggle) > .a-button-inner {
-  background-color: none !important;
+  background-color: transparent !important;
 }
 
 #vvp-items-grid .vvp-item-tile .vvp-item-tile-content .a-button:not(.a-button-toggle):hover {
