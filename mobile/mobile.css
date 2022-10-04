@@ -132,9 +132,20 @@
   margin-top: 0.5rem !important;
 }
 
-#vvp-items-grid .vvp-item-tile .vvp-item-tile-content .a-button:not(.a-button-toggle) {
+.a-button-primary {
   border-radius: 0 !important;
   margin-bottom: 0.5rem !important;
+  background: #ff6a00 !important;
+  border-color: #ff6a00 !important;
+  transition: 0.2s !important;
+}
+
+.a-button-primary .a-button-inner {
+  background-color: transparent !important;
+}
+
+.a-button-primary:hover {
+  opacity: 0.85 !important;
 }
 
 #vvp-items-grid .vvp-item-tile .vvp-item-tile-content>.vvp-item-product-title-container {
