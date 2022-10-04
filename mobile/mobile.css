@@ -103,7 +103,7 @@
 #vvp-items-button-container .a-button-toggle.a-button{
     margin: 0px !important;
     padding: 0px !important;
-    width: 33% !important;
+    width: calc(100% / 3) !important;
     border-radius: 0px;
 }
 
