@@ -132,6 +132,10 @@
   margin-top: 0.5rem !important;
 }
 
+#vvp-item-tile, .a-tab-content {
+  border: none !important;
+}
+
 .a-button-primary {
   border-radius: 0 !important;
   background: #ff6a00 !important;
