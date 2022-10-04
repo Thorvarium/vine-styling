@@ -53,7 +53,7 @@
   transition: 0.2s !important;
 }
 
-.a-button-primary a {
+.a-button-primary .a-button-text {
   color: white !important;
 }
 
