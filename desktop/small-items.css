@@ -49,3 +49,8 @@
 #vvp-items-grid .vvp-item-tile .vvp-item-tile-content>.vvp-item-product-title-container {
   height: 40px !important;
 }
+
+.vvp-details-btn {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
