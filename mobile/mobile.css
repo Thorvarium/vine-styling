@@ -296,6 +296,46 @@
   color: white !important;
 }
 
+/* SEARCH BUTTON */
+#vvp-beta-tag {
+  display: none;
+}
+
+#vvp-search-button, #vvp-search-text-input {
+  border-radius: 0rem !important;
+}
+
+#vvp-search-button #vvp-search-button-announce {
+  line-height: 1 !important;
+}
+
+/* COLLAPSABLE CATEGORIES */
+
+.vvp-items-container {
+  margin: 0rem !important;
+}
+
+#vvp-browse-nodes-container {
+  margin: 0.5rem 0rem !important;
+}
+
+#vvp-browse-nodes-container:not(:hover) p,
+#vvp-browse-nodes-container:not(:hover) .parent-node,
+#vvp-browse-nodes-container:not(:hover) .child-node {
+  display: none !important;
+}
+
+#vvp-browse-nodes-container:not(:hover):before {
+  content: "Filter Categories";
+  padding: 0.5rem;
+  line-height: 3rem;
+  color: #FFF;
+}
+
+#vvp-browse-nodes-container:not(:hover) {
+  background-color: #303333;
+}
+
 /* PRODUCT AND REVIEW PAGES */
 #vvp-product-details-img-container,
 #vvp-product-details-img-container img {
