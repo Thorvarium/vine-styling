@@ -161,40 +161,57 @@
   justify-content: center;  
 }
 
-.a-pagination li {
-  width: auto !important;
-  margin: 0px !important;
-}
-
-.a-pagination li a {
-  padding-left: 0.5rem !important;
-  padding-right: 0.5rem !important;
-}
-
 .a-pagination li:first-child a,
 .a-pagination li:last-child a {
-    width: 50px !important;
-    overflow: hidden;
-    height: 48.6px !important;
     color: transparent !important;
 }
 
 .a-pagination li:first-child,
 .a-pagination li:last-child{
     color: transparent !important;
-}
-
-.a-pagination li .larr {
-    color: black !important;
-    position: absolute;
-    top: 15px;
-    right: 16px;
+    position: relative;
 }
 
 .a-pagination li.a-disabled {
-  padding: unset !important;
+  display: none !important;
 }
 
+.a-pagination li:first-child a,
+.a-pagination li:last-child a {
+    display: flex;
+    align-content: center;
+    position: relative;
+    justify-content: center;
+}
+
+.a-pagination li:first-child a:before,
+.a-pagination li:last-child a:before {
+    position: absolute !important;
+    color: white !important;
+    font-size: 2rem !important;
+    line-height: 4rem;
+    height: 100%;
+    width: 100%;
+}
+
+.a-pagination li:first-child a:before {
+  content: "⬅️" !important;
+}
+
+.a-pagination li:last-child a:before {
+  content: "➡️" !important;
+}
+
+.a-pagination li {
+  width: 40px !important;
+  height: 40px !important;
+}
+.a-pagination li a{
+    padding: 0px !important;
+    margin: 0px !important;
+    height: 100%;
+    line-height: 40px !important;
+}
 
 .vvp-details-btn .a-button-text {
     padding: 0.5px 0.25px;
