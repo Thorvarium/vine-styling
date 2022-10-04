@@ -44,9 +44,13 @@
 #vvp-items-grid .vvp-item-tile .vvp-item-tile-content .a-button:not(.a-button-toggle) {
   border-radius: 0 !important;
   margin-bottom: 0.5rem !important;
-  background-color: #ff6a00;
-  border-color: #ff6a00;
-  transition: 0.2s;
+  background-color: #ff6a00 !important;
+  border-color: #ff6a00 !important;
+  transition: 0.2s !important;
+}
+
+#vvp-items-grid .vvp-item-tile .vvp-item-tile-content .a-button:not(.a-button-toggle):hover {
+  opacity: 0.85 !important;
 }
 
 #vvp-items-grid .vvp-item-tile .vvp-item-tile-content>.vvp-item-product-title-container {
