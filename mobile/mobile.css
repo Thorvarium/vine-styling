@@ -43,7 +43,7 @@
 }
 
 #vvp-header {
-  justify-content: center;
+  justify-content: center !important;
 }
 
 .vvp-body {
