@@ -48,9 +48,13 @@
 .a-button-primary {
   border-radius: 0 !important;
   margin-bottom: 0.5rem !important;
-  background: #ff6a00 !important;
-  border-color: #ff6a00 !important;
+  background: #303333 !important;
+  border-color: #303333 !important;
   transition: 0.2s !important;
+}
+
+.a-button-primary a {
+  color: white !important;
 }
 
 .a-button-base {
@@ -68,4 +72,22 @@
 
 #vvp-items-grid .vvp-item-tile .vvp-item-tile-content>.vvp-item-product-title-container {
   height: 40px !important;
+}
+
+/* Search  Button */
+#vvp-beta-tag {
+  display: none;
+}
+
+#vvp-search-button, #vvp-search-text-input {
+  border-radius: 0rem !important;
+}
+
+#vvp-search-button #vvp-search-button-announce {
+  line-height: 1 !important;
+}
+
+#vvp-search-button .a-button-inner {
+  display: flex;
+  align-items: center;
 }
