@@ -231,12 +231,12 @@
 }
 
 .vvp-details-btn {
-  padding: 0.25rem 0;
+  padding: 0.25rem 0 !important;
   margin: 0.25rem 0rem !important;
 }
 
 .vvp-details-btn .a-button-text {
-    padding: 0.5px 0.25px;
+    padding: 0.5px 0.25px !important;
 }
 
 /* RFY, AFA, AI */
