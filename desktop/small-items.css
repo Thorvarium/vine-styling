@@ -44,13 +44,11 @@
 #vvp-items-grid .vvp-item-tile .vvp-item-tile-content .a-button:not(.a-button-toggle) {
   border-radius: 0 !important;
   margin-bottom: 0.5rem !important;
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+  transition: 0.2s;
 }
 
 #vvp-items-grid .vvp-item-tile .vvp-item-tile-content>.vvp-item-product-title-container {
   height: 40px !important;
-}
-
-.vvp-details-btn {
-  background-color: #ff6a00;
-  border-color: #ff6a00;
 }
