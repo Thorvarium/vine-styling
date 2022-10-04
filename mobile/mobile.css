@@ -147,9 +147,13 @@
 
 .a-button-primary {
   border-radius: 0 !important;
-  background: #ff6a00 !important;
-  border-color: #ff6a00 !important;
+  background: #303333 !important;
+  border-color: #303333 !important;
   transition: 0.2s !important;
+}
+
+.a-button-primary .a-button-text {
+  color: white !important;
 }
 
 .a-button-base {
