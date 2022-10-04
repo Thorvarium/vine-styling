@@ -49,7 +49,7 @@
   transition: 0.2s !important;
 }
 
-#vvp-items-grid .vvp-item-tile .vvp-item-tile-content .a-button:not(.a-button-toggle) > a.button-inner {
+#vvp-items-grid .vvp-item-tile .vvp-item-tile-content .a-button:not(.a-button-toggle) > a-button-inner {
   background-color: none !important;
 }
 
