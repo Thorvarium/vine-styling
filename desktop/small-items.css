@@ -49,6 +49,11 @@
   transition: 0.2s !important;
 }
 
+.a-button-base {
+  border-radius: 0 !important;
+  margin-bottom: 0.5rem !important;
+}
+
 .a-button-primary .a-button-inner {
   background-color: transparent !important;
 }
