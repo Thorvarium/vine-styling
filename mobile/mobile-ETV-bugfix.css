@@ -1,0 +1,10 @@
+#vvp-product-details-modal--tax-value {
+    position: unset !important;
+    top: unset !important;
+    z-index: unset !important;
+    left: unset !important;
+}
+
+##vvp-product-details-modal--limited-quantity {
+  position: unset !important;
+}
