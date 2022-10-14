@@ -104,6 +104,10 @@
   flex-grow: 1 !important;
 }
 
+#vvp-browse-nodes-container > p {
+  text-align: right;
+}
+
 #vvp-items-button-container .a-button-toggle.a-button{
     margin: 0px !important;
     padding: 0px !important;
