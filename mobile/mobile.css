@@ -28,6 +28,10 @@
   margin: 0px !important; 
 }
 
+.a-tabs li a {
+  padding: 1rem !important; 
+}
+
 .nav-mobile.nav-ftr-batmobile {
   display: none;
 }
