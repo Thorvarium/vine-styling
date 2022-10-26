@@ -1,3 +1,7 @@
+body {
+  padding-right: 0px !important;
+}
+
 #navbar-main, #skiplink {
   display: none;
 }
