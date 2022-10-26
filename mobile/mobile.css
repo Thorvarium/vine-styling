@@ -1,3 +1,7 @@
+body {
+  padding-right: 0px !important;
+}
+
 .a-section.vvp-items-button-and-search-container {
   flex-direction: column !important;
 }
