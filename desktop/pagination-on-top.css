@@ -8,3 +8,7 @@
   right: 50%;
   transform: translateX(50%);
 }
+
+.vvp-orders-table--heading-top {
+  margin-top: 35px;
+}
