@@ -92,6 +92,11 @@ Inside kiwi browser you can install "Stylebot" as well
 
 
 # iPhone
+
+Both the Safari extension and alternate browser techniques use products from the company Laso Techcnologies Inc. 
+
+
+## Alternative browser method
 For iPhone, we recommend a browser called "Insight Browser", this browser supports extensions. 
 
 download: https://apps.apple.com/us/app/insight-browser/id1531407280
@@ -106,3 +111,39 @@ Inside Insight Browser, go to settings and click on:
   - give it the value: ```^https:\/\/www.amazon.com\/vine```
   - change the "then" condition to "inject Css from URL"
   - use the url: ```https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/mobile.css```
+
+## Safari extension method
+There is a downloadable extension for Safari called "Hyperweb" that supports alternate stylesheets.
+
+download: https://apps.apple.com/us/app/hyperweb/id1581824571
+
+docs: https://guide.hyperweb.app
+
+custom css docs: https://guide.hyperweb.app/styling/custom-css/
+
+Hyperweb also works on desktop Mac and PC for Chrome and Firefox. You may determine you prefer the performance of a different browser and extension.
+
+for iOS and iPadOS:
+- open the Hyperbrowser app
+- follow the instructions to change your settings
+- tap "Advanced" in the bottom bar
+- tap "Create Local Extension"
+- name your customization
+- tap + next to New Condition
+- tap Condition Type? and select "URL matches RegEx"
+- under the "Then" section tap "Add Action"
+- aelect "Inject CSS from URL"
+- give it the value: ```^https:\/\/www.amazon.com\/vine```
+- change the "then" condition to "inject Css from URL"
+- use the url: ```https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/mobile.css```
+
+## Additional customizations
+Both are limited to custom css hosted from a url, and not css definitions saved in the stylesheets.
+
+However, you can write and host your own overrides to the styles defined in the vine-styling project. You create a .css file. You make the css changes you wish to see. 
+Then add an additional Action for your configuration, specifying the URL to your CSS file.
+
+Your hosting choices are up to you, but options include
+- dropbox
+- Using a file saved in your iCloud drive https://apple.stackexchange.com/questions/352163/obtain-a-private-url-to-a-file-in-icloud-drive-without-making-the-file-available
+- Forking this project, adding a file, and linking to the "raw" URL.
