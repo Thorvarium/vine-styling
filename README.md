@@ -116,7 +116,9 @@ Inside Insight Browser, go to settings and click on:
 There is a downloadable extension for Safari called "Hyperweb" that supports alternate stylesheets.
 
 download: https://apps.apple.com/us/app/hyperweb/id1581824571
+
 docs: https://guide.hyperweb.app
+
 custom css docs: https://guide.hyperweb.app/styling/custom-css/
 
 Hyperweb also works on desktop Mac and PC for Chrome and Firefox. You may determine you prefer the performance of a different browser and extension.
