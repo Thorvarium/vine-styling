@@ -10,7 +10,7 @@ https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/
 
 - Open stylebot options and go to the tab "Styles"
 - Click at "Add a new style..."
-- in the "Enter URL..." field use: ```https://www.amazon.com/vine*```
+- in the "Enter URL..." field use: ```https://*.amazon.com/vine*```
 - in the text area below insert the styles that you desire:
 ```
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/small-items.css);
