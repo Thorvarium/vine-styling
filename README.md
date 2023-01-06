@@ -108,7 +108,7 @@ Inside Insight Browser, go to settings and click on:
   - Add a extension
   - Give it any name
   - Change the "IF" condition to: "url matches regex"
-  - give it the value: ```^https:\/\/www.amazon.com\/vine``` (in case you use smiles.amazon you can change here)
+  - give it the value: ```^https:\/\/www.amazon.com\/vine``` (in case you use smiles.amazon you can change here the www for smiles)
   - change the "then" condition to "inject Css from URL"
   - use the url: ```https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/mobile.css```
 
@@ -133,7 +133,7 @@ for iOS and iPadOS:
 - tap Condition Type? and select "URL matches RegEx"
 - under the "Then" section tap "Add Action"
 - aelect "Inject CSS from URL"
-- give it the value: ```^https:\/\/www.amazon.com\/vine``` (in case you use smiles.amazon you can change here)
+- give it the value: ```^https:\/\/www.amazon.com\/vine``` (in case you use smiles.amazon you can change here the www for smiles)
 - change the "then" condition to "inject Css from URL"
 - use the url: ```https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/mobile.css```
 
