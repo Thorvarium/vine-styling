@@ -16,6 +16,7 @@ https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/small-items.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/remove-header.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/remove-footer.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/remove-suggestions.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/remove-associate-header.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/more-description-text.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/etv-modal-on-top.css);
@@ -36,6 +37,8 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 - Removes the website header
 ### remove-footer.css:
 - Removes the website footer
+### remove-suggestions.css
+- Removes the suggestions carousels showing recommendations, recent purchases. May improve loading time.
 ### remove-associate-header.css:
 - Removes the website "Amazon Associates" header, in case you are an "Amazon Associate"
 ### more-description-text.css:

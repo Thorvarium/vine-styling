@@ -40,6 +40,10 @@ body {
   display: none;
 }
 
+/*remove suggestions carousel*/
+.rhf-frame {
+  display:none
+}
 .vvp-tab-set-container [data-a-name="vine-items"] .a-box-inner .vvp-tab-content .vvp-items-button-and-search-container {
   margin: 0px !important;
 }
