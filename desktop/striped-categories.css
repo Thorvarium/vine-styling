@@ -1,8 +1,8 @@
 #vvp-browse-nodes-container .parent-node {
-  background-color: white
+  background-color: transparent;
 }
 #vvp-browse-nodes-container > div:nth-child(odd) {
-    background-color: #f3f3f3 !important;
+    background-color: rgb(127 127 127 / 10%) !important;
 }
 #vvp-browse-nodes-container .parent-node, #vvp-browse-nodes-container .child-node  {
   display: flex !important;
