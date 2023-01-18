@@ -1,13 +1,23 @@
+/*** Credits: Lelouch vi Britannia#1876 (dark mode)
+
+Done in collaboration with Thorvarium#0001
+
+***/
+
+/*** -- General style overrides -- ***/
 body {
     color: #d5d5d5 !important;
     background: #191919 !important;
+}
+
+.a-unordered-list, ul, .a-ordered-list, ol, .a-ordered-list .a-list-item, .a-unordered-list .a-list-item, ol .a-list-item, ul .a-list-item {
+    color: #eff1f1;
 }
 
 /* All buttons */
 .a-button .a-button-text {
     color: #eff1f1;
 }
-
 
 .a-button {
     background-color: #282b2b;
@@ -19,6 +29,17 @@ body {
 
 .a-button:hover {
     border-color: #D5D9D9;
+    background-color: #191919;
+}
+
+.a-button-primary:hover {
+    background: #F7CA00;
+    border-color: #F2C200;
+}
+
+.a-button.a-button-base.a-button-focus, .a-button.a-button-base:focus {
+    background: #000;
+    box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #191919;
 }
 
 .a-button-toggle.a-button-selected .a-button-inner, .a-button-toggle.a-button-selected.a-button-focus .a-button-inner, .a-button-toggle.a-button-selected.a-button-focus:hover .a-button-inner, .a-button-toggle.a-button-selected:focus .a-button-inner, .a-button-toggle.a-button-selected:focus:hover .a-button-inner, .a-button-toggle.a-button-selected:hover .a-button-inner {
@@ -43,9 +64,58 @@ body {
     border-color: #008296;
 }
 
+/*** Search bar ***/
+
+.a-button-dark:hover, .a-button-search:hover {
+    background: #eff1f1;
+    border-color: #eff1f1;
+    color: initial;
+}
+
+.a-button-dark, .a-button-search {
+    background: #cdd0d0;
+    border-color: #eff1f1;
+}
+
+.a-button-search .a-button-text, .a-button-dark:hover .a-button-text, .a-button-dark:hover button.a-button-text, .a-button-search:hover .a-button-text, .a-button-search:hover button.a-button-text {
+    color: #1c2121 !important;
+}
+
+.a-button-dark.a-button:active:not(.a-button-disabled), .a-button-search.a-button:active:not(.a-button-disabled) {
+    background: #cdd0d0;
+    box-shadow: 0 0 0 3px #1093a8, inset 0 0 0 2px #191919;
+}
+
+.a-button-search.a-button:focus {
+    box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #000;
+}
+
+.a-button-dark.a-button-focus:hover, .a-button-dark:focus:hover, .a-button-search.a-button-focus:hover, .a-button-search:focus:hover {
+    background-color: #eff1f1;
+}
+
+.a-search input {
+    background: #000000;
+}
+
+.a-input-text:focus, input[type=search]:focus {
+    background-color: #F7FEFF;
+    border-color: #007185;
+}
+
+input[type=search]:focus {
+    background-color: inherit;
+    border-color: #007185;
+    box-shadow: 0 0 0 3px #1093a8, 0 1px 2px rgb(15 17 17 / 15%) inset;
+}
+
+#vvp-search-text-input {
+    color: #eff1f1;
+}
+
 /* Thorvarium's custom tabs  */
 #vvp-items-button--recommended a::before, #vvp-items-button--all a::before, #vvp-items-button--seller a::before {
-    color: #eff1f1;
+    color: #eff1f1 !important;
 }
 /* End */
 
@@ -75,7 +145,7 @@ a, a:link, a:visited {
 }
 
 a:hover {
-    color: #C7511F;
+    color: #e06a38;
 }
 
 .a-color-base {
@@ -84,7 +154,24 @@ a:hover {
 
 /* End */
 
-/* See Details button */
+/** Text Input/Search Fields **/
+
+.a-input-text input.a-form-error.a-form-focus, .a-input-text input.a-form-error:focus, .a-input-text.a-form-error.a-form-focus, .a-input-text.a-form-error:focus, input[type=text] input.a-form-error.a-form-focus, input[type=text] input.a-form-error:focus, input[type=text].a-form-error.a-form-focus, input[type=text].a-form-error:focus, input[type=search] input.a-form-error.a-form-focus, input[type=search] input.a-form-error:focus, input[type=search].a-form-error.a-form-focus, input[type=search].a-form-error:focus, input[type=number] input.a-form-error.a-form-focus, input[type=number] input.a-form-error:focus, input[type=number].a-form-error.a-form-focus, input[type=number].a-form-error:focus, input[type=tel] input.a-form-error.a-form-focus, input[type=tel] input.a-form-error:focus, input[type=tel].a-form-error.a-form-focus, input[type=tel].a-form-error:focus, input[type=password] input.a-form-error.a-form-focus, input[type=password] input.a-form-error:focus, input[type=password].a-form-error.a-form-focus, input[type=password].a-form-error:focus, select.a-select-multiple input.a-form-error.a-form-focus, select.a-select-multiple input.a-form-error:focus, select.a-select-multiple.a-form-error.a-form-focus, select.a-select-multiple.a-form-error:focus, textarea input.a-form-error.a-form-focus, textarea input.a-form-error:focus, textarea.a-form-error.a-form-focus, textarea.a-form-error:focus {
+        box-shadow: 0 0 0 1px #cc0c39 inset, 0 0 0 3px #4d0000;
+        background-color: #000;
+}
+
+.a-input-text.a-form-focus, .a-input-text:focus, input[type=text].a-form-focus, input[type=text]:focus, input[type=search].a-form-focus, input[type=search]:focus, input[type=number].a-form-focus, input[type=number]:focus, input[type=tel].a-form-focus, input[type=tel]:focus, input[type=password].a-form-focus, input[type=password]:focus, select.a-select-multiple.a-form-focus, select.a-select-multiple:focus, textarea.a-form-focus, textarea:focus {
+    background-color: #00090a;
+    box-shadow: 0 0 0 3px #1093a8, 0 1px 2px rgb(15 17 17 / 15%) inset;
+}
+
+textarea {
+    background-color: #000;
+    color: #eff1f1;
+}
+
+/* Yellow button */
 
 .a-button-primary {
     background: #a18601;
@@ -95,6 +182,12 @@ a:hover {
     box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
 }
 
+.a-button-primary:active:not(.a-button-disabled) {
+    background-color: #F0B800;
+    border-color: #008296;
+    box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #191919;
+}
+
 /*** Item popup modal ***/
 
 .a-button-close:focus {
@@ -102,18 +195,7 @@ a:hover {
     box-shadow: 0 0 0 3px #0a6270;
 }
 
-.a-unordered-list, ul {
-    color: #eff1f1;
-}
 
-.a-ordered-list .a-list-item, .a-unordered-list .a-list-item, ol .a-list-item, ul .a-list-item {
-    color: #eff1f1;
-}
-
-.a-expander-content-fade {
-    background: -webkit-linear-gradient(top,rgba(255,255,255,0),#fff);
-    background: linear-gradient(to bottom,rgba(255,255,255,0),#fff);
-}
 
 .a-popover-inner {
     background-color: #1d2020;
@@ -147,50 +229,10 @@ a:hover {
     background: none;
 }
 
-/*** Search bar ***/
-
-
-.a-button-dark, .a-button-search {
-    background: #cdd0d0;
-    border-color: #eff1f1;
-}
-
-#vvp-search-button-announce {
-    color: #1c2121;
-}
-
-
-.a-search .a-icon-search {
-    filter: invert(1);
-}
-
-.a-search input {
-    background: #000000;
-}
-
-.a-input-text:focus, input[type=search]:focus {
-    background-color: #F7FEFF;
-    border-color: #007185;
-}
-
-input[type=search]:focus {
-    background-color: inherit;
-    border-color: #007185;
-    box-shadow: 0 0 0 3px #1093a8, 0 1px 2px rgb(15 17 17 / 15%) inset;
-}
-
-#vvp-search-text-input {
-    color: #eff1f1;
-}
-
-a-button-search {
-
-}
-
 
 /*** Icons ***/
 
-.a-icon-extender-collapse, .a-icon-extender-expand, .a-icon-close, .a-icon-dropdown {
+.a-icon-extender-collapse, .a-icon-extender-expand, .a-icon-close, .a-icon-dropdown, .a-icon-next, .a-icon-previous, .a-search .a-icon-search {
     filter: invert(1);
 }
 
@@ -254,11 +296,7 @@ a-button-search {
     color: #eff1f1;
 }
 
-.a-button-primary:active:not(.a-button-disabled) {
-    background-color: #F0B800;
-    border-color: #008296;
-    box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #191919;
-}
+
 
 .a-button-toggle:hover.a-button-focus .a-button-inner, .a-button-toggle:hover.a-button-selected .a-button-inner, .a-button-toggle:hover:focus .a-button-inner {
     background-color: #060909;
@@ -280,12 +318,17 @@ a-button-search {
     color: #eff1f1;
 }
 
-/* Images, mostly dimming their brightness a little bit */
-img {
+/* Image dimming */
+#vvp-items-grid-container img, #vvp-product-details-modal--main img, #rhf img {
     filter: brightness(0.8);
 }
 
-/* Bottom page # buttons */
+/* Adding transparent Vine logo */
+#vvp-logo-link > img {
+    content: url(https://i.imgur.com/e1UlYE1.png) !important;
+}
+
+/* Page # buttons */
 ul.a-pagination li a {
     border-color: #888C8C;
     color: #d5d5d5;
@@ -327,6 +370,10 @@ ul.a-tabs {
     background-color: #0d0d0d;
 }
 
+ul.a-tabs .a-tab-heading a:hover, ul.a-tabs li a:hover {
+    border-top-color: #e06a38;
+}
+
 ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
     border-color: #272b2b;
     background-color: #191919;
@@ -338,11 +385,11 @@ ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
 
 /*** Dropdown menus ***/
 
-
+/*
 .a-dropdown-common .a-dropdown-item:hover .a-dropdown-link {
 
 }
-
+*/
 .a-dropdown-common .a-popover-inner {
     background: #282b2b;
 }
@@ -416,11 +463,11 @@ ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
 .grey-text {
     color: #8a8a8a !important;
 }
-
+/*
 .vvp-orders-table--actions-col > .a-button {
     background-color: #282b2b !important;
 }
-
+*/
 #vvp-opt-out-of-vine-button {
     background-color: red !important;
 }
@@ -454,6 +501,6 @@ ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
     color: #a7aaaa !important;
 }
 
-.a-color-link {
+div.a-container .a-color-link, div#rhf .a-color-link {
     color: #00a9c7 !important;
 }
