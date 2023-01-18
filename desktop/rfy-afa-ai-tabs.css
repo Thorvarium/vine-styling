@@ -9,7 +9,7 @@
 #vvp-items-button--recommended a::before,
 #vvp-items-button--all a::before,
 #vvp-items-button--seller a::before {
-    color: black !important;
+    color: initial;
     position: absolute !important;
     font-size: 20px !important;
     font-weight: bold !important;
