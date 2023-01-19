@@ -5,3 +5,8 @@ body {
 #navbar-main, #skiplink {
   display: none;
 }
+
+#vpp-logo-link img {
+  content: url(https://vine.nyc3.digitaloceanspaces.com/vine.webp) !important;
+  margin-bottom: 3px;
+}
