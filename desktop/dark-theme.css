@@ -323,11 +323,6 @@ textarea {
     filter: brightness(0.8);
 }
 
-/* Adding transparent Vine logo */
-#vvp-logo-link > img {
-    content: url(https://i.imgur.com/e1UlYE1.png) !important;
-}
-
 /* Page # buttons */
 ul.a-pagination li a {
     border-color: #888C8C;
