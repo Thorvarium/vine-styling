@@ -1,0 +1,506 @@
+/*** Credits: Lelouch vi Britannia#1876 (dark mode)
+
+Done in collaboration with Thorvarium#0001
+
+***/
+
+/*** -- General style overrides -- ***/
+body {
+    color: #d5d5d5 !important;
+    background: #191919 !important;
+}
+
+.a-unordered-list, ul, .a-ordered-list, ol, .a-ordered-list .a-list-item, .a-unordered-list .a-list-item, ol .a-list-item, ul .a-list-item {
+    color: #eff1f1;
+}
+
+/* All buttons */
+.a-button .a-button-text {
+    color: #eff1f1;
+}
+
+.a-button {
+    background-color: #282b2b;
+}
+
+.a-button-toggle .a-button-inner {
+    background-color: #191919;
+}
+
+.a-button:hover {
+    border-color: #D5D9D9;
+    background-color: #191919;
+}
+
+.a-button-primary:hover {
+    background: #F7CA00;
+    border-color: #F2C200;
+}
+
+.a-button.a-button-base.a-button-focus, .a-button.a-button-base:focus {
+    background: #000;
+    box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #191919;
+}
+
+.a-button-toggle.a-button-selected .a-button-inner, .a-button-toggle.a-button-selected.a-button-focus .a-button-inner, .a-button-toggle.a-button-selected.a-button-focus:hover .a-button-inner, .a-button-toggle.a-button-selected:focus .a-button-inner, .a-button-toggle.a-button-selected:focus:hover .a-button-inner, .a-button-toggle.a-button-selected:hover .a-button-inner {
+    background-color: #00363d;
+}
+
+.a-button-toggle.a-button-focus .a-button-inner, .a-button-toggle:focus .a-button-inner, .a-button-toggle:hover .a-button-inner {
+    background-color: #0d0d0d;
+}
+
+.a-button a, .a-button:hover:not(.a-button-search) a {
+    color: #eff1f1;
+}
+
+.a-button-group-splitdropdown .a-button.a-button-focus .a-button-inner, .a-button-group-splitdropdown .a-button:focus .a-button-inner, .a-dropdown-container .a-button-dropdown.a-button-focus .a-button-inner, .a-dropdown-container .a-button-dropdown:focus .a-button-inner {
+    background: #282b2b;
+}
+
+.a-button:active:not(.a-button-disabled) {
+    background-color: #001214;
+    box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #191919;
+    border-color: #008296;
+}
+
+/*** Search bar ***/
+
+.a-button-dark:hover, .a-button-search:hover {
+    background: #eff1f1;
+    border-color: #eff1f1;
+    color: initial;
+}
+
+.a-button-dark, .a-button-search {
+    background: #cdd0d0;
+    border-color: #eff1f1;
+}
+
+.a-button-search .a-button-text, .a-button-dark:hover .a-button-text, .a-button-dark:hover button.a-button-text, .a-button-search:hover .a-button-text, .a-button-search:hover button.a-button-text {
+    color: #1c2121 !important;
+}
+
+.a-button-dark.a-button:active:not(.a-button-disabled), .a-button-search.a-button:active:not(.a-button-disabled) {
+    background: #cdd0d0;
+    box-shadow: 0 0 0 3px #1093a8, inset 0 0 0 2px #191919;
+}
+
+.a-button-search.a-button:focus {
+    box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #000;
+}
+
+.a-button-dark.a-button-focus:hover, .a-button-dark:focus:hover, .a-button-search.a-button-focus:hover, .a-button-search:focus:hover {
+    background-color: #eff1f1;
+}
+
+.a-search input {
+    background: #000000;
+}
+
+.a-input-text:focus, input[type=search]:focus {
+    background-color: #F7FEFF;
+    border-color: #007185;
+}
+
+input[type=search]:focus {
+    background-color: inherit;
+    border-color: #007185;
+    box-shadow: 0 0 0 3px #1093a8, 0 1px 2px rgb(15 17 17 / 15%) inset;
+}
+
+#vvp-search-text-input {
+    color: #eff1f1;
+}
+
+/* Thorvarium's custom tabs  */
+#vvp-items-button--recommended a::before, #vvp-items-button--all a::before, #vvp-items-button--seller a::before {
+    color: #eff1f1 !important;
+}
+/* End */
+
+.a-box:not(.a-alert) {
+    background-color: #191919;
+}
+
+.a-box:not(.a-alert), .a-box-group>.a-box.a-color-alternate-background, .a-box-group>.a-box.a-color-offset-background {
+    border: 1px #272b2b solid;
+}
+
+.a-alert {
+    background: #272b2b;
+}
+
+.a-alert-error .a-alert-container, .a-alert-info .a-alert-container, .a-alert-success .a-alert-container, .a-alert-warning .a-alert-container {
+    background: transparent;
+}
+
+#vvp-items-grid .vvp-item-tile {
+    border: 1px solid #636363 !important;
+}
+
+/* Text/hyperlinks */
+a, a:link, a:visited {
+    color: #00a9c7;
+}
+
+a:hover {
+    color: #e06a38;
+}
+
+.a-color-base {
+    color: #f0eeee !important;
+}
+
+/* End */
+
+/** Text Input/Search Fields **/
+
+.a-input-text input.a-form-error.a-form-focus, .a-input-text input.a-form-error:focus, .a-input-text.a-form-error.a-form-focus, .a-input-text.a-form-error:focus, input[type=text] input.a-form-error.a-form-focus, input[type=text] input.a-form-error:focus, input[type=text].a-form-error.a-form-focus, input[type=text].a-form-error:focus, input[type=search] input.a-form-error.a-form-focus, input[type=search] input.a-form-error:focus, input[type=search].a-form-error.a-form-focus, input[type=search].a-form-error:focus, input[type=number] input.a-form-error.a-form-focus, input[type=number] input.a-form-error:focus, input[type=number].a-form-error.a-form-focus, input[type=number].a-form-error:focus, input[type=tel] input.a-form-error.a-form-focus, input[type=tel] input.a-form-error:focus, input[type=tel].a-form-error.a-form-focus, input[type=tel].a-form-error:focus, input[type=password] input.a-form-error.a-form-focus, input[type=password] input.a-form-error:focus, input[type=password].a-form-error.a-form-focus, input[type=password].a-form-error:focus, select.a-select-multiple input.a-form-error.a-form-focus, select.a-select-multiple input.a-form-error:focus, select.a-select-multiple.a-form-error.a-form-focus, select.a-select-multiple.a-form-error:focus, textarea input.a-form-error.a-form-focus, textarea input.a-form-error:focus, textarea.a-form-error.a-form-focus, textarea.a-form-error:focus {
+        box-shadow: 0 0 0 1px #cc0c39 inset, 0 0 0 3px #4d0000;
+        background-color: #000;
+}
+
+.a-input-text.a-form-focus, .a-input-text:focus, input[type=text].a-form-focus, input[type=text]:focus, input[type=search].a-form-focus, input[type=search]:focus, input[type=number].a-form-focus, input[type=number]:focus, input[type=tel].a-form-focus, input[type=tel]:focus, input[type=password].a-form-focus, input[type=password]:focus, select.a-select-multiple.a-form-focus, select.a-select-multiple:focus, textarea.a-form-focus, textarea:focus {
+    background-color: #00090a;
+    box-shadow: 0 0 0 3px #1093a8, 0 1px 2px rgb(15 17 17 / 15%) inset;
+}
+
+textarea {
+    background-color: #000;
+    color: #eff1f1;
+}
+
+/* Yellow button */
+
+.a-button-primary {
+    background: #a18601;
+    border-color: #927a00;
+}
+
+.a-button:not(.a-button-toggle) {
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+}
+
+.a-button-primary:active:not(.a-button-disabled) {
+    background-color: #F0B800;
+    border-color: #008296;
+    box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #191919;
+}
+
+/*** Item popup modal ***/
+
+.a-button-close:focus {
+    border-color: #007185;
+    box-shadow: 0 0 0 3px #0a6270;
+}
+
+
+
+.a-popover-inner {
+    background-color: #1d2020;
+}
+
+.a-popover-modal .a-popover-header {
+    border-bottom: 1px solid #4e5656;
+    background-color: #282b2b;
+}
+
+.a-popover-modal .a-popover-wrapper {
+    border-color: #4e5656;
+    box-shadow: 0 0 14px 0 rgb(15 17 17 / 50%);
+}
+
+.a-popover-wrapper {
+    border-color: #BBBFBF;
+    background-color: #1d2020;
+}
+
+.a-expander-partial-collapse-header {
+    background-color: #1d2020;
+}
+
+.a-expander-content-fade {
+    background: -webkit-linear-gradient(top,rgba(255,255,255,0),#1d2020);
+    background: linear-gradient(to bottom,rgba(255,255,255,0),#1d2020);
+}
+
+.a-popover-modal.a-popover-modal-fixed-height .a-popover-footer::before, .a-popover-modal.a-popover-modal-fixed-height .a-popover-wrapper::after {
+    background: none;
+}
+
+
+/*** Icons ***/
+
+.a-icon-extender-collapse, .a-icon-extender-expand, .a-icon-close, .a-icon-dropdown, .a-icon-next, .a-icon-previous, .a-search .a-icon-search {
+    filter: invert(1);
+}
+
+.vvp-beta-tag-box {
+    background-color: #1196AB !important;
+    border-color: #1196AB !important;
+}
+/*
+#vvp-shipping-address-modal--back-btn, #vvp-product-details-modal--back-btn {
+    background: #1196ab;
+    border-color: #1196AB;
+}
+*/
+
+#vvp-shipping-address-modal--back-btn:hover, #vvp-product-details-modal--back-btn:hover {
+    background: #060909;
+}
+
+#vvp-shipping-address-modal--back-btn.a-button-active, #vvp-product-details-modal--back-btn.a-button-active {
+    background: #282b2b;
+    border-color: #008296;
+    box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #fff;
+}
+
+#vvp-shipping-address-modal--back-btn.a-button-focus, #vvp-product-details-modal--back-btn.a-button-focus {
+    background: #282b2b;
+    border-color: #008296;
+    box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #000000;
+}
+
+
+.a-button-group-splitdropdown .a-button, .a-dropdown-container .a-button-dropdown {
+    border-color: #D5D9D9;
+    color: #eff1f1;
+    background: #282b2b;
+}
+
+.a-button-group-splitdropdown .a-button .a-button-inner, .a-dropdown-container .a-button-dropdown .a-button-inner {
+    background: #282b2b;
+}
+
+.a-button-group-splitdropdown .a-button:hover .a-button-inner, .a-dropdown-container .a-button-dropdown:hover .a-button-inner {
+    background: #181b1b;
+}
+
+.a-button-group-splitdropdown .a-button:active .a-button-inner, .a-dropdown-container .a-button-dropdown:active .a-button-inner {
+    background: #005b66;
+}
+
+.a-button-group-splitdropdown .a-button.a-button-focus, .a-button-group-splitdropdown .a-button:focus, .a-dropdown-container .a-button-dropdown.a-button-focus, .a-dropdown-container .a-button-dropdown:focus {
+    border-color: #007185;
+    box-shadow: 0 0 0 3px #053138;
+    background: #001214;
+}
+
+.a-button-group-splitdropdown .a-button:hover, .a-dropdown-container .a-button-dropdown:hover {
+    background: #181b1b;
+}
+
+.a-button .a-button-text:hover {
+    color: #eff1f1;
+}
+
+
+
+.a-button-toggle:hover.a-button-focus .a-button-inner, .a-button-toggle:hover.a-button-selected .a-button-inner, .a-button-toggle:hover:focus .a-button-inner {
+    background-color: #060909;
+}
+
+.a-button.a-button-focus .a-button-inner .a-button-text, .a-button:focus .a-button-inner .a-button-text {
+    color: #0e1010;
+}
+
+
+/* Address select modal */
+
+.vvp-address-selected {
+    background-color: #391f05 !important;
+    border: 1px solid #FBD8B4 !important;
+}
+
+.a-checkbox label, .a-radio label {
+    color: #eff1f1;
+}
+
+/* Image dimming */
+#vvp-items-grid-container img, #vvp-product-details-modal--main img, #rhf img {
+    filter: brightness(0.8);
+}
+
+/* Adding transparent Vine logo */
+#vvp-logo-link > img {
+    content: url(https://i.imgur.com/e1UlYE1.png) !important;
+}
+
+/* Page # buttons */
+ul.a-pagination li a {
+    border-color: #888C8C;
+    color: #d5d5d5;
+    border: 1px solid #6c6e73;
+}
+
+ul.a-pagination li.a-disabled {
+    background: none;
+    border: 1px solid #272b2b;
+    color: #6F7373;
+}
+
+ul.a-pagination li.a-selected a {
+    background-color: #001214;
+    border-color: #007185;
+    color: #007185;
+}
+
+ul.a-pagination li a:active {
+    background-color: #001214;
+    border-color: #007185;
+}
+
+ul.a-pagination li a:hover {
+    background-color: #060909;
+    border-color: #D5D9D9;
+}
+
+ul.a-pagination li a:focus {
+    border-color: #007185;
+    box-shadow: 0 0 0 3px #053138;
+    outline: 0;
+}
+
+/* End page select buttons */
+
+ul.a-tabs {
+    border: 1px solid #272b2b;
+    background-color: #0d0d0d;
+}
+
+ul.a-tabs .a-tab-heading a:hover, ul.a-tabs li a:hover {
+    border-top-color: #e06a38;
+}
+
+ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
+    border-color: #272b2b;
+    background-color: #191919;
+    color: #e06a38;
+    border-top-color: #e06a38;
+}
+
+
+
+/*** Dropdown menus ***/
+
+/*
+.a-dropdown-common .a-dropdown-item:hover .a-dropdown-link {
+
+}
+*/
+.a-dropdown-common .a-popover-inner {
+    background: #282b2b;
+}
+
+.a-dropdown-common .a-dropdown-link {
+    color: #eff1f1;
+    padding: 2px 12px 1px 13px;
+    border: 1px solid transparent;
+}
+
+.a-dropdown-common .a-dropdown-item:hover .a-dropdown-link {
+    border-color: #4e5656;
+    background-color: #515d5d !important;
+    color: #eff1f1;
+}
+
+.a-dropdown-common .a-dropdown-item:focus .a-dropdown-link {
+    border-color: #007185;
+    background-color: #007f8f;
+    color: #eff1f1;
+}
+
+.a-dropdown-common .a-dropdown-link.a-active {
+    border-color: #D5D9D9;
+    background-color: #005b66;
+    /* border-left-color: #007185!important; */
+}
+
+.a-button-toggle:active .a-button-inner {
+    background-color: #101214;
+}
+
+.a-button.a-button-focus .a-button-inner .a-button-text, .a-button:focus .a-button-inner .a-button-text {
+    color: #eff1f1;
+}
+
+.a-button.a-button-focus, .a-button:focus {
+    border-color: #008296;
+    box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #fff;
+}
+
+/* End of RFY, etc. buttons */
+
+/*** -- Vine Reviews Page -- ***/
+
+.vvp-tab-content .vvp-reviews-table--heading-top, .vvp-reviews-table .vvp-reviews-table--heading-row, .vvp-tab-content .vvp-orders-table--heading-top, .vvp-orders-table .vvp-orders-table--heading-row {
+    background: #282b2b !important;
+    border-color: #636363 !important;
+}
+
+.vvp-reviews-table, .vvp-reviews-table .vvp-reviews-table--row, .vvp-orders-table, .vvp-orders-table .vvp-orders-table--row {
+    border-color: #636363 !important;
+}
+
+
+/*** -- Vine Account Page -- ***/
+
+.a-box.a-color-alternate-background, .a-box.a-color-offset-background {
+    border-color: #636363 !important;
+    background-color: #282b2b !important
+}
+
+.vvp-account-box strong {
+    color: #a7aaaa !important;
+}
+
+.vvp-aqua {
+    color: #00b1cc !important;
+}
+
+.grey-text {
+    color: #8a8a8a !important;
+}
+/*
+.vvp-orders-table--actions-col > .a-button {
+    background-color: #282b2b !important;
+}
+*/
+#vvp-opt-out-of-vine-button {
+    background-color: red !important;
+}
+
+/*** -- Vine Resources Page -- ***/
+
+.vvp-learning-resource-title {
+    color: #00b1cc;
+}
+
+.vvp-learning-resource--btn-container .vvp-learning-resource--viewed-status {
+    color: #42da02 !important;
+}
+
+.a-icon-success {
+    filter: brightness(1.5);
+}
+
+/*** Miscellaneous ***/
+
+/* Carousel stuff */
+#rhf #rhf-shoveler {
+    color: #d5d5d5;
+}
+
+.a-price {
+    color: #eff1f1 !important;
+}
+
+.a-color-secondary, .a-color-tertiary {
+    color: #a7aaaa !important;
+}
+
+div.a-container .a-color-link, div#rhf .a-color-link {
+    color: #00a9c7 !important;
+}
