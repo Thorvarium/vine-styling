@@ -32,11 +32,6 @@ body {
     background-color: #191919;
 }
 
-.a-button-primary:hover {
-    background: #F7CA00;
-    border-color: #F2C200;
-}
-
 .a-button.a-button-base.a-button-focus, .a-button.a-button-base:focus {
     background: #000;
     box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #191919;
@@ -173,6 +168,16 @@ textarea {
 
 /* Yellow button */
 
+.a-button-primary:hover {
+    background: #F7CA00;
+    border-color: #F2C200;
+}
+
+.a-button-primary.a-button-focus:hover, .a-button-primary:focus:hover {
+    border-color: #008296;
+    background-color: #F7CA00 !important;
+}
+
 .a-button-primary {
     background: #a18601;
     border-color: #927a00;
@@ -232,7 +237,7 @@ textarea {
 
 /*** Icons ***/
 
-.a-icon-extender-collapse, .a-icon-extender-expand, .a-icon-close, .a-icon-dropdown, .a-icon-next, .a-icon-previous, .a-search .a-icon-search {
+.a-icon-extender-collapse, .a-icon-extender-expand, .a-icon-close, .a-icon-dropdown, .a-icon-next, .a-icon-previous, .a-search .a-icon-search, .a-icon-section-collapse, .a-icon-section-expand {
     filter: invert(1);
 }
 
@@ -319,7 +324,7 @@ textarea {
 }
 
 /* Image dimming */
-#vvp-items-grid-container img, #vvp-product-details-modal--main img, #rhf img {
+.vvp-reviews-table--image-col img, .vvp-orders-table--image-col img, #vvp-items-grid img, #vvp-items-grid-container img, #vvp-product-details-modal--main img, #rhf img {
     filter: brightness(0.8);
 }
 
@@ -381,6 +386,19 @@ ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
     border-top-color: #e06a38;
 }
 
+ul.a-tabs .a-tab-heading a, ul.a-tabs li a {
+    color: #eff1f1;
+}
+
+ul.a-tabs .a-tab-heading a:hover, ul.a-tabs li a:hover {
+    color: #0adaff;
+}
+
+ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
+    box-shadow: inset 0 -2px 0 0 #0adaff;
+    color: #0adaff;
+}
+
 
 
 /*** Dropdown menus ***/
@@ -428,7 +446,11 @@ ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
 
 .a-button.a-button-focus, .a-button:focus {
     border-color: #008296;
-    box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #fff;
+    box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #191919;
+}
+
+.a-button.a-button-focus:hover, .a-button:focus:hover {
+    background-color: #060909;
 }
 
 /* End of RFY, etc. buttons */
@@ -442,6 +464,10 @@ ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
 
 .vvp-reviews-table, .vvp-reviews-table .vvp-reviews-table--row, .vvp-orders-table, .vvp-orders-table .vvp-orders-table--row {
     border-color: #636363 !important;
+}
+
+.vvp-subtitle-color {
+    color: #a7aaaa;
 }
 
 
@@ -484,6 +510,66 @@ ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
 
 .a-icon-success {
     filter: brightness(1.5);
+}
+
+/*** -- Tax Dashboard -- ***/
+
+.answer_content ol, .answer_content ul {
+    color: #eff1f1;
+}
+
+a.a-link-section-expander {
+    background-color: #282b2b;
+}
+
+a.a-link-section-expander:hover, a.a-link-section-expander:focus {
+    color: #eff1f1;
+    background-color: #171717;
+}
+
+.a-global-nav-wrapper {
+    background: #212121;
+    background: -webkit-linear-gradient(top,#1a1a1a,#2b2b2b);
+    background: linear-gradient(to bottom,#1a1a1a,#2b2b2b);
+    border-bottom: 1px solid rgba(0,0,0,.17);
+}
+
+.a-ordered-list.a-list-link a, .a-unordered-list.a-list-link a, ol.a-list-link a, ul.a-list-link a {
+    color: #eff1f1;
+}
+
+hr {
+    border-top: 1px solid #4a4a4a;
+}
+
+/** Tax Interview **/
+.text-module {
+    color: #cccccc;
+}
+
+.a-box .a-divider.a-divider-break h5, .a-color-base-background .a-divider.a-divider-break h5, .a-divider.a-divider-break h5 {
+    color: #8a8a8a;
+    background-color: #191919;
+}
+
+/* Tax Forms Table */
+table.a-bordered tr:first-child th {
+    background: #292929;
+    background: #262626;
+    background: -webkit-linear-gradient(top,#212121,#2b2b2b);
+    background: linear-gradient(to bottom,#212121,#2b2b2b);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 50%) inset;
+    border-color: #141414;
+    border-bottom: 1px solid #212121;
+}
+
+table.a-bordered tr:nth-child(even) {
+    background-color: #242424;
+}
+
+table.a-bordered {
+    border: 1px solid #303030;
+    border-top-color: #2e2e2e;
 }
 
 /*** Miscellaneous ***/
