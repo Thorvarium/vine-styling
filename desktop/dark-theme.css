@@ -167,20 +167,23 @@ textarea {
 }
 
 /* Yellow button */
-
-.a-button-primary:hover {
-    background: #F7CA00;
-    border-color: #F2C200;
-}
-
-.a-button-primary.a-button-focus:hover, .a-button-primary:focus:hover {
-    border-color: #008296;
-    background-color: #F7CA00 !important;
+.a-button-primary .a-button-text {
+    color: #0F1111 !important;
 }
 
 .a-button-primary {
-    background: #a18601;
-    border-color: #927a00;
+    background: #e0bb00 !important;
+    border-color: #c7a600 !important;
+}
+
+.a-button-primary:hover {
+    background: #c29f00 !important;
+    border-color: #bd9700 !important;
+}
+
+.a-button-primary.a-button-focus:hover, .a-button-primary:focus:hover {
+    border-color: #008296 !important;
+    background-color: #c29f00 !important;
 }
 
 .a-button:not(.a-button-toggle) {
@@ -188,8 +191,8 @@ textarea {
 }
 
 .a-button-primary:active:not(.a-button-disabled) {
-    background-color: #F0B800;
-    border-color: #008296;
+    background-color: #bd9100 !important;
+    border-color: #008296 !important;
     box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #191919;
 }
 
@@ -199,8 +202,6 @@ textarea {
     border-color: #007185;
     box-shadow: 0 0 0 3px #0a6270;
 }
-
-
 
 .a-popover-inner {
     background-color: #1d2020;
@@ -234,7 +235,6 @@ textarea {
     background: none;
 }
 
-
 /*** Icons ***/
 
 .a-icon-extender-collapse, .a-icon-extender-expand, .a-icon-close, .a-icon-dropdown, .a-icon-next, .a-icon-previous, .a-search .a-icon-search, .a-icon-section-collapse, .a-icon-section-expand {
@@ -245,12 +245,25 @@ textarea {
     background-color: #1196AB !important;
     border-color: #1196AB !important;
 }
-/*
-#vvp-shipping-address-modal--back-btn, #vvp-product-details-modal--back-btn {
-    background: #1196ab;
-    border-color: #1196AB;
+
+.a-button .a-button-text:hover {
+    color: #eff1f1;
 }
-*/
+
+.a-button-toggle:hover.a-button-focus .a-button-inner, .a-button-toggle:hover.a-button-selected .a-button-inner, .a-button-toggle:hover:focus .a-button-inner {
+    background-color: #060909;
+}
+
+.a-button.a-button-focus .a-button-inner .a-button-text, .a-button:focus .a-button-inner .a-button-text {
+    color: #0e1010;
+}
+
+/* Address select modal */
+
+.vvp-address-selected {
+    background-color: #391f05 !important;
+    border: 1px solid #FBD8B4 !important;
+}
 
 #vvp-shipping-address-modal--back-btn:hover, #vvp-product-details-modal--back-btn:hover {
     background: #060909;
@@ -266,57 +279,6 @@ textarea {
     background: #282b2b;
     border-color: #008296;
     box-shadow: 0 0 0 3px #053138, inset 0 0 0 2px #000000;
-}
-
-
-.a-button-group-splitdropdown .a-button, .a-dropdown-container .a-button-dropdown {
-    border-color: #D5D9D9;
-    color: #eff1f1;
-    background: #282b2b;
-}
-
-.a-button-group-splitdropdown .a-button .a-button-inner, .a-dropdown-container .a-button-dropdown .a-button-inner {
-    background: #282b2b;
-}
-
-.a-button-group-splitdropdown .a-button:hover .a-button-inner, .a-dropdown-container .a-button-dropdown:hover .a-button-inner {
-    background: #181b1b;
-}
-
-.a-button-group-splitdropdown .a-button:active .a-button-inner, .a-dropdown-container .a-button-dropdown:active .a-button-inner {
-    background: #005b66;
-}
-
-.a-button-group-splitdropdown .a-button.a-button-focus, .a-button-group-splitdropdown .a-button:focus, .a-dropdown-container .a-button-dropdown.a-button-focus, .a-dropdown-container .a-button-dropdown:focus {
-    border-color: #007185;
-    box-shadow: 0 0 0 3px #053138;
-    background: #001214;
-}
-
-.a-button-group-splitdropdown .a-button:hover, .a-dropdown-container .a-button-dropdown:hover {
-    background: #181b1b;
-}
-
-.a-button .a-button-text:hover {
-    color: #eff1f1;
-}
-
-
-
-.a-button-toggle:hover.a-button-focus .a-button-inner, .a-button-toggle:hover.a-button-selected .a-button-inner, .a-button-toggle:hover:focus .a-button-inner {
-    background-color: #060909;
-}
-
-.a-button.a-button-focus .a-button-inner .a-button-text, .a-button:focus .a-button-inner .a-button-text {
-    color: #0e1010;
-}
-
-
-/* Address select modal */
-
-.vvp-address-selected {
-    background-color: #391f05 !important;
-    border: 1px solid #FBD8B4 !important;
 }
 
 .a-checkbox label, .a-radio label {
@@ -399,8 +361,6 @@ ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
     color: #0adaff;
 }
 
-
-
 /*** Dropdown menus ***/
 
 /*
@@ -436,6 +396,35 @@ ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
     /* border-left-color: #007185!important; */
 }
 
+
+.a-button-group-splitdropdown .a-button, .a-dropdown-container .a-button-dropdown {
+    border-color: #D5D9D9;
+    color: #eff1f1;
+    background: #282b2b;
+}
+
+.a-button-group-splitdropdown .a-button .a-button-inner, .a-dropdown-container .a-button-dropdown .a-button-inner {
+    background: #282b2b;
+}
+
+.a-button-group-splitdropdown .a-button:hover .a-button-inner, .a-dropdown-container .a-button-dropdown:hover .a-button-inner {
+    background: #181b1b;
+}
+
+.a-button-group-splitdropdown .a-button:active .a-button-inner, .a-dropdown-container .a-button-dropdown:active .a-button-inner {
+    background: #005b66;
+}
+
+.a-button-group-splitdropdown .a-button.a-button-focus, .a-button-group-splitdropdown .a-button:focus, .a-dropdown-container .a-button-dropdown.a-button-focus, .a-dropdown-container .a-button-dropdown:focus {
+    border-color: #007185;
+    box-shadow: 0 0 0 3px #053138;
+    background: #001214;
+}
+
+.a-button-group-splitdropdown .a-button:hover, .a-dropdown-container .a-button-dropdown:hover {
+    background: #181b1b;
+}
+
 .a-button-toggle:active .a-button-inner {
     background-color: #101214;
 }
@@ -469,7 +458,6 @@ ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
 .vvp-subtitle-color {
     color: #a7aaaa;
 }
-
 
 /*** -- Vine Account Page -- ***/
 
