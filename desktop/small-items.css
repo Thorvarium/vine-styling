@@ -1,93 +1,113 @@
-#vvp-header {
-  margin: 0px;
-}
+    #vvp-header {
+      margin: 0px;
+    }
 
-.a-container.vvp-body {
-  padding: 0px;
-  max-width: unset !important;
-  min-width: unset !important;
-}
+    .a-container.vvp-body {
+      padding: 0px;
+      max-width: unset !important;
+      min-width: unset !important;
+    }
 
-#vvp-logo-link img {
-  height: 30px;
-}
+    #vvp-logo-link img {
+      height: 30px;
+    }
 
-#vvp-header ~ .a-section {
-  display: none;
-}
+    #vvp-header ~ .a-section {
+      display: none;
+    }
 
-.vvp-body>*+* {
-  margin-top: 0px !important;
-}
+    .vvp-body>*+* {
+      margin-top: 0px !important;
+    }
 
-.vvp-header-links-container {
-  margin-right: 0.5rem;
-}
+    .vvp-header-links-container {
+      margin-right: 0.5rem;
+    }
 
-#vvp-items-grid {
-  grid-template-columns: repeat(auto-fill,minmax(110px,auto)) !important;
-  margin-bottom: 0px !important;
-}
+    #vvp-items-grid {
+      grid-template-columns: repeat(auto-fill,minmax(110px,auto)) !important;
+      margin-bottom: 0px !important;
+    }
 
-#vvp-items-grid .vvp-item-tile .vvp-item-tile-content {
-  width: 110px !important;
-}
+    #vvp-items-grid .vvp-item-tile .vvp-item-tile-content {
+      width: 110px !important;
+    }
 
-#vvp-items-grid .vvp-item-tile .vvp-item-tile-content > * {
-  margin: 0 !important;
-}
+    #vvp-items-grid .vvp-item-tile .vvp-item-tile-content > * {
+      margin: 0 !important;
+    }
 
-#vvp-items-grid .vvp-item-tile .vvp-item-tile-content > img {
-  margin-top: 0.5rem !important;
-}
+    #vvp-items-grid .vvp-item-tile .vvp-item-tile-content > img {
+      margin-top: 0.5rem !important;
+    }
 
-.vvp-item-tile, .a-tab-content {
-  border: none !important;
-}
+    .vvp-item-tile, .a-tab-content {
+      border: none !important;
+    }
 
-.a-button-primary {
-  border-radius: 0 !important;
-  margin-bottom: 0.5rem !important;
-  background: #303333 !important;
-  border-color: #303333 !important;
-  transition: 0.2s !important;
-}
+    .a-button-primary {
+      border-radius: 0 !important;
+      margin-bottom: 0.5rem !important;
+      background: #303333;
+      border-color: #303333;
+      transition: 0.2s !important;
+    }
+    
+    .a-button-primary:hover {
+      background: #303333;
+      border-color: #303333;
+      opacity: 0.85;
+    }
+    
+    .a-button-primary:focus:hover {
+    background: #303333;
+      border-color: #303333;
+    }
+    
+    .a-button:focus .a-button-inner .a-button-text, .a-button .a-button-text:hover, .a-button-primary:active:not(.a-button-disabled) .a-button-text {
+      color: white;
+    }
+    
+    .a-button-primary:active:not(.a-button-disabled) {
+      background: #303333;
+      border-color: #303333;
+    }
 
-.a-button-primary .a-button-text {
-  color: white !important;
-}
+    .a-button-primary .a-button-text {
+      color: white;
+    }
+    
+    .a-button-primary:hover .a-button-text, .a-button-primary:focus .a-button-text {
+      color: white;
+    }
 
-.a-button-base {
-  border-radius: 0 !important;
-  margin-bottom: 0.5rem !important;
-}
+    .a-button-base {
+      border-radius: 0 !important;
+      margin-bottom: 0.5rem !important;
+    }
 
-.a-button-primary .a-button-inner {
-  background-color: transparent !important;
-}
+    .a-button-primary .a-button-inner {
+      background-color: transparent;
+    }
 
-.a-button-primary:hover {
-  opacity: 0.85 !important;
-}
+    #vvp-items-grid .vvp-item-tile .vvp-item-tile-content>.vvp-item-product-title-container {
+      height: 40px !important;
+    }
 
-#vvp-items-grid .vvp-item-tile .vvp-item-tile-content>.vvp-item-product-title-container {
-  height: 40px !important;
-}
+    /*  Button */
+    #vvp-beta-tag {
+      display: none;
+    }
 
-/* Search  Button */
-#vvp-beta-tag {
-  display: none;
-}
+    #vvp-search-button, #vvp-search-text-input {
+      border-radius: 0rem !important;
+    }
 
-#vvp-search-button, #vvp-search-text-input {
-  border-radius: 0rem !important;
-}
+    #vvp-search-button #vvp-search-button-announce {
+      line-height: 1 !important;
+    }
 
-#vvp-search-button #vvp-search-button-announce {
-  line-height: 1 !important;
-}
-
-#vvp-search-button .a-button-inner {
-  display: flex;
-  align-items: center;
-}
+    #vvp-search-button .a-button-inner {
+      display: flex;
+      align-items: center;
+  }
