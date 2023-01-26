@@ -72,6 +72,10 @@ body {
     border-color: #eff1f1;
 }
 
+.a-button.a-button-search:focus:hover {
+    background-color: #f6f9f9 !important;
+}
+
 .a-button-search .a-button-text, .a-button-dark:hover .a-button-text, .a-button-dark:hover button.a-button-text, .a-button-search:hover .a-button-text, .a-button-search:hover button.a-button-text {
     color: #1c2121 !important;
 }
@@ -152,9 +156,14 @@ a:hover {
 /** Text Input/Search Fields **/
 
 .a-input-text input.a-form-error.a-form-focus, .a-input-text input.a-form-error:focus, .a-input-text.a-form-error.a-form-focus, .a-input-text.a-form-error:focus, input[type=text] input.a-form-error.a-form-focus, input[type=text] input.a-form-error:focus, input[type=text].a-form-error.a-form-focus, input[type=text].a-form-error:focus, input[type=search] input.a-form-error.a-form-focus, input[type=search] input.a-form-error:focus, input[type=search].a-form-error.a-form-focus, input[type=search].a-form-error:focus, input[type=number] input.a-form-error.a-form-focus, input[type=number] input.a-form-error:focus, input[type=number].a-form-error.a-form-focus, input[type=number].a-form-error:focus, input[type=tel] input.a-form-error.a-form-focus, input[type=tel] input.a-form-error:focus, input[type=tel].a-form-error.a-form-focus, input[type=tel].a-form-error:focus, input[type=password] input.a-form-error.a-form-focus, input[type=password] input.a-form-error:focus, input[type=password].a-form-error.a-form-focus, input[type=password].a-form-error:focus, select.a-select-multiple input.a-form-error.a-form-focus, select.a-select-multiple input.a-form-error:focus, select.a-select-multiple.a-form-error.a-form-focus, select.a-select-multiple.a-form-error:focus, textarea input.a-form-error.a-form-focus, textarea input.a-form-error:focus, textarea.a-form-error.a-form-focus, textarea.a-form-error:focus {
-        box-shadow: 0 0 0 1px #cc0c39 inset, 0 0 0 3px #4d0000;
-        background-color: #000;
+    box-shadow: 0 0 0 1px #cc0c39 inset, 0 0 0 3px #4d0000;
+    background-color: #000;
 }
+
+input[type="file" i] {
+    color: #eff1f1;
+}
+
 
 .a-input-text.a-form-focus, .a-input-text:focus, input[type=text].a-form-focus, input[type=text]:focus, input[type=search].a-form-focus, input[type=search]:focus, input[type=number].a-form-focus, input[type=number]:focus, input[type=tel].a-form-focus, input[type=tel]:focus, input[type=password].a-form-focus, input[type=password]:focus, select.a-select-multiple.a-form-focus, select.a-select-multiple:focus, textarea.a-form-focus, textarea:focus {
     background-color: #00090a;
@@ -197,6 +206,13 @@ textarea {
 }
 
 /*** Item popup modal ***/
+
+.a-popover-header {
+    background: #0d0d0d;
+    background: -webkit-linear-gradient(top,#3d3d3d,#1f1f1f);
+    background: linear-gradient(to bottom,#3d3d3d,#1f1f1f);
+    border-bottom: 1px solid #cdcdcd;
+}
 
 .a-button-close:focus {
     border-color: #007185;
@@ -535,6 +551,10 @@ hr {
     color: #cccccc;
 }
 
+.a-alert-inline-success .a-alert-container {
+    color: #09be95;
+}
+
 .a-box .a-divider.a-divider-break h5, .a-color-base-background .a-divider.a-divider-break h5, .a-divider.a-divider-break h5 {
     color: #8a8a8a;
     background-color: #191919;
@@ -562,6 +582,18 @@ table.a-bordered tr:nth-child(even) {
 table.a-bordered {
     border: 1px solid #303030;
     border-top-color: #2e2e2e;
+}
+
+/** Chat With Us **/
+
+.a-ordered-list.a-nostyle, .a-unordered-list.a-nostyle, ol.a-nostyle, ul.a-nostyle {
+    color: #eff1f1;
+}
+
+.chatBotOptionsEnabled {
+    border-color: #adb1b8;
+    background-image: linear-gradient(180deg, #1f242e, #131316);
+    color: #eff1f1;
 }
 
 /** Contact Us Form **/
@@ -646,6 +678,11 @@ a.cu-is-anchor-radio-btn:active {
 
 .a-input-text, input[type=text], input[type=search], input[type=number], input[type=tel], input[type=password], input[type=date], input[type=email] {
     background-color: #000000;
+    color: #eff1f1;
+}
+
+._cDEzb_savingsBadgeMessage_15cc9 {
+    background: #191919 !important;
 }
 
 /* Carousel stuff */
