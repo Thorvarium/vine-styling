@@ -4,6 +4,9 @@
 #vvp-items-button--seller a {
   color: transparent;
   width: 75px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 #vvp-items-button--recommended a::before,
