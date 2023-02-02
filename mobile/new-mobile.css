@@ -242,7 +242,7 @@ body {
 }
 
 #vvp-product-details-modal--tax-value {
-    position: absolute !important;
+    position: fixed !important;
     top: 20px !important;
     z-index: 100;
     left: 18px;
