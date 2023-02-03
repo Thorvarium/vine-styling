@@ -448,6 +448,19 @@ body {
         bottom: unset;
     }
     
+    /* ETV bug fix? */
+    
+    #vvp-product-details-modal--tax-value {
+        position: unset !important;
+        top: unset !important;
+        z-index: unset !important;
+        left: unset !important;
+    }
+
+    ##vvp-product-details-modal--limited-quantity {
+      position: unset !important;
+    }
+    
 
 /* Accounts page */
 
@@ -510,3 +523,4 @@ body {
     #vvp-current-status-box > .a-box-inner > .a-row > .a-column.a-span6.a-span-last {
         margin-right: 26%;
     }*/
+    
