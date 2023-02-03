@@ -455,17 +455,6 @@ max-height: 40px !important;
   display: inline-table;
 }
 
-/*Centering tier */
-  /*
-.a-box.a-color-alternate-background.vvp-account-box .a-box-inner > div {
-margin-left: auto;
-      margin-right: auto;
-}
-
-.a-box.a-color-alternate-background.vvp-account-box .a-box-inner > div > h1.vvp-aqua {
-margin: 0 auto;
-}
-  */
   #vvp-current-status-box {
   display: inline-table;
 }
@@ -473,23 +462,11 @@ margin: 0 auto;
   #vvp-vine-activity-metrics-box {
   display: inline-table;
   }
-  /*
-  #vvp-current-status-box h1.vvp-aqua {
-  display: table;
-}
-
-  .a-row .a-span6, .a-ws .a-row .a-ws-span6 {
-      width: unset;
-  }*/
 
   #vvp-review-button-container {
       margin: 0 auto;
   }
 
-  /*
-  .vvp-account-box {
-      padding: unset;
-  }*/
 
   .a-ws div.a-column, div.a-column {
       margin-right: unset;
@@ -500,7 +477,3 @@ margin: 0 auto;
   }
 
 
-  /*
-  #vvp-current-status-box > .a-box-inner > .a-row > .a-column.a-span6.a-span-last {
-      margin-right: 26%;
-  }*/
