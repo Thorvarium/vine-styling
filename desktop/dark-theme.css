@@ -694,6 +694,17 @@ ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
     border-top-color: var(--body-bg);
 }
 
+/* Stars in ratings */
+/* low res sprite sheet: https://i.imgur.com/zawg2GA.png */
+.a-hires .a-icon.a-icon-star, .a-hires .a-icon.a-icon-star-medium, .a-hires .a-icon.a-icon-star-mini, .a-hires .a-icon.a-icon-star-small {
+    background-image: url("https://i.imgur.com/Kxeu6Hw.png");
+}
+
+/* low res */
+.a-icon.a-icon-star, .a-icon.a-icon-star-medium, .a-icon.a-icon-star-mini, .a-icon.a-icon-star-small {
+    background-image: url("https://i.imgur.com/Kxeu6Hw.png");
+}
+
 /*** -- Vine Account Page -- ***/
 .a-box.a-color-alternate-background, .a-box.a-color-offset-background {
     border-color: #636363 !important;
