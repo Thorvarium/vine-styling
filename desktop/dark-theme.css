@@ -529,7 +529,7 @@ Changed it because it doesn't look good with the rest of Amazon. Plus, the origi
 
 /* Adding transparent Vine logo */
 #vvp-logo-link > img, #vvp-about-vine-page.vvp-about-page > img {
-    content: url(https://i.imgur.com/X4MWVAp.png) !important;
+    content: url("https://i.imgur.com/X4MWVAp.png") !important;
 }
 
 #vvp-about-vine-page #vvp-about-page--title-container #vvp-about-page--title-text-container .vvp-about-vine--subtitle {
