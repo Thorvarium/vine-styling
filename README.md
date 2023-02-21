@@ -153,3 +153,8 @@ Your hosting choices are up to you, but options include
 - dropbox
 - Using a file saved in your iCloud drive https://apple.stackexchange.com/questions/352163/obtain-a-private-url-to-a-file-in-icloud-drive-without-making-the-file-available
 - Forking this project, adding a file, and linking to the "raw" URL.
+
+## Help 
+
+If you need any help, you can join our discord server at:
+https://discord.gg/amazonvine
