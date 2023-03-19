@@ -101,7 +101,7 @@
   .vvp-item-tile
   .vvp-item-tile-content
   > .vvp-item-product-title-container {
-  height: var(--item-title-height, 40px) !important;
+  height: var(--item-tile-height, 40px) !important;
 }
 
 /*  Button */

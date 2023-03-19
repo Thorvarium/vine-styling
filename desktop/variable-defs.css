@@ -6,7 +6,7 @@ Each of the variables defined or calculated below can be overridden with a corre
   
 
 :root {
-    --cust-item-title-height: 40px;
+    --cust-item-tile-height: 40px;
 }
 
 Here are the other variable override names
@@ -23,7 +23,7 @@ In just mobile css files:
 */
 :root {
   /*defaults--mostly for dev reference*/
-  --default-item-title-height: 40px;
+  --default-item-tile-height: 40px;
   --default-logo-link-height: 30px;
   --default-grid-column-width: 110px;
 
@@ -35,18 +35,18 @@ In just mobile css files:
     otherwise, values are calculated */
 
   /*item-title-height is the base value for derived items*/
-  --item-title-height: var(
-    --cust-item-title-height,
-    var(--default-item-title-height)
+  --item-tile-height: var(
+    --cust-item-tile-height,
+    var(--default-item-tile-height)
   );
 
-  --calc-logo-link-height: calc(var(--item-title-height) * 0.75);
+  --calc-logo-link-height: calc(var(--item-tile-height) * 0.75);
   --logo-link-height: var(
     --cust-logo-link-height,
     var(--calc-logo-link-height)
   );
 
-  --calc-grid-column-width: calc(var(--item-title-height) * 2.75);
+  --calc-grid-column-width: calc(var(--item-tile-height) * 2.75);
   --grid-column-width: var(
     --cust-item-grid-column-width,
     var(--calc-grid-column-width)

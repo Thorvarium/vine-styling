@@ -2,7 +2,7 @@
   .vvp-item-tile
   .vvp-item-tile-content
   > .vvp-item-product-title-container {
-  height: var(--item-title-height, 40px) !important;
+  height: var(--item-tile-height, 40px) !important;
   font-size: var(--product-title-text-size, 10px) !important;
 }
 
@@ -11,5 +11,5 @@
   .vvp-item-tile-content
   > .vvp-item-product-title-container
   .a-truncate {
-  max-height: var(--item-title-height, 40px) !important;
+  max-height: var(--item-tile-height, 40px) !important;
 }

@@ -6,7 +6,7 @@ Changing the item-title-height variable should allow the rest of the grid to app
 
 :root {
   /*defaults--mostly for dev reference*/
-  --default-item-title-height: 30px;
+  --default-item-tile-height: 30px;
   --default-grid-column: 90px;
   --default-max-product-title: 100px;
   --default-product-title-text-size: 10px;
@@ -19,24 +19,24 @@ Changing the item-title-height variable should allow the rest of the grid to app
   otherwise, values are calculated */
 
   /*item-title-height is the base value for derived items*/
-  --item-title-height: var(
-    --cust-item-title-height,
-    var(--default-item-title-height)
+  --item-tile-height: var(
+    --cust-item-tile-height,
+    var(--default-item-tile-height)
   );
 
-  --calc-grid-column-width: calc(var(--item-title-height) * 2.75);
+  --calc-grid-column-width: calc(var(--item-tile-height) * 2.75);
   --grid-column-width: var(
     --cust-item-grid-column-width,
     var(--calc-grid-column-width)
   );
 
-  --calc-max-product-title: calc(var(--item-title-height) * 1.25);
+  --calc-max-product-title: calc(var(--item-tile-height) * 1.25);
   --max-product-title: var(
     --cust-max-product-title,
     var(--calc-max-product-title)
   );
 
-  --calc-product-title-text-size: calc(var(--item-title-height) * 0.333);
+  --calc-product-title-text-size: calc(var(--item-tile-height) * 0.333);
   --product-title-text-size: var(
     --cust-product-title-text-size,
     var(--calc-product-title-text-size)
