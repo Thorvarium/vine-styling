@@ -1,3 +1,48 @@
+/* Amazon's original grid was based on a tile height of 80px
+
+Thorvariums suggested styling was based on one of 40px
+
+Changing the item-title-height variable should allow the rest of the grid to approximate visual sense.*/
+
+:root {
+  /*defaults--mostly for dev reference*/
+  --default-item-title-height: 30px;
+  --default-grid-column: 90px;
+  --default-max-product-title: 100px;
+  --default-product-title-text-size: 10px;
+
+  /*users can define custom  overrides by defining
+  --cust-orgin-param-name
+
+  in another file or block that occurs before this stylesheet
+
+  otherwise, values are calculated */
+
+  /*item-title-height is the base value for derived items*/
+  --item-title-height: var(
+    --cust-item-title-height,
+    var(--default-item-title-height)
+  );
+
+  --calc-grid-column-width: calc(var(--item-title-height) * 2.75);
+  --grid-column-width: var(
+    --cust-item-grid-column-width,
+    var(--calc-grid-column-width)
+  );
+
+  --calc-max-product-title: calc(var(--item-title-height) * 1.25);
+  --max-product-title: var(
+    --cust-max-product-title,
+    var(--calc-max-product-title)
+  );
+
+  --calc-product-title-text-size: calc(var(--item-title-height) * 0.333);
+  --product-title-text-size: var(
+    --cust-product-title-text-size,
+    var(--calc-product-title-text-size)
+  );
+}
+
 body {
   padding-right: 0px !important;
 }
@@ -190,10 +235,6 @@ body {
 
 .vvp-items-container {
   flex-direction: column !important;
-}
-
-#vvp-items-grid {
-  grid-template-columns: repeat(auto-fill, minmax(100px, auto)) !important;
 }
 
 #vvp-items-grid .vvp-item-tile .vvp-item-tile-content > * {
@@ -475,19 +516,22 @@ body {
 }
 
 #vvp-items-grid {
-  grid-template-columns: repeat(auto-fill, minmax(90px, auto)) !important;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--grid-column-width), auto)
+  ) !important;
 }
 
 #vvp-items-grid .vvp-item-tile .vvp-item-tile-content {
-  width: 90px !important;
+  width: var(--grid-column-width) !important;
 }
 
 #vvp-items-grid
   .vvp-item-tile
   .vvp-item-tile-content
   > .vvp-item-product-title-container {
-  height: 40px !important;
-  font-size: 10px !important;
+  height: var(--max-product-title) !important;
+  font-size: var(--product-title-text-size) !important;
 }
 
 #vvp-items-grid
@@ -495,5 +539,5 @@ body {
   .vvp-item-tile-content
   > .vvp-item-product-title-container
   .a-truncate {
-  max-height: 40px !important;
+  max-height: var(--max-product-title) !important;
 }
