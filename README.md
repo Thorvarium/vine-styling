@@ -34,8 +34,13 @@ if you want to use the dark theme, also include:
 Those are the public styles that we created, if you don't want all of them you can remove the line that represents the functionality that you do not want.
 For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/pagination-on-top.css);``` makes the pagination to be on the top of the page, just don't include this line if you dont want that.
 
+### variable-defs.css:
+- Use if you want to define your own tile size for the product grid
+- Place your override definitions above the small-items.css and more-description-text.css files
+  
 ### small-items.css:
 - Show more items per row in the page
+
 ### remove-header.css:
 - Removes the website header
 ### remove-footer.css:
@@ -62,26 +67,40 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 - Enables dark theme on all vine pages
 
 ## Customization
-if you want to customize some specific style you can also open the files that you want to customize, copy the part that you want changed and include at the bottom of the stylebot file. This way you can tweak the numbers that you want customized.
+If you want to customize just the product grid, you can place a block that will override the sizing at the very top. The stylesheet will automatically adjust a few other proportions if you define only ``--cust-item-tile-size``. 
+
+You must have variable-defs.css included immediately below your definition. Other variables you can use are listed in the file variable-defs.css.
+
+if you want to customize some other specific style you can also open the files that you want to customize, copy the part that you want changed and include at the *bottom* of the stylebot file. This way you can tweak the numbers that you want customized.
 
 Example:
 
 ```
+:root{
+  --cust-item-tile-height:50px;
+}
+
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/variable-defs.css)
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/small-items.css);
 /* ... all other imports ... */
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/collapsable-categories.css);
 
-#vvp-items-grid {
-  grid-template-columns: repeat(auto-fill,minmax(75px,auto)) !important;
+.a-button-primary {
+    background: plum !important;
+    border-color: plum !important;
+}
+.a-button-primary:hover .a-button-text {
+    color: white !important;
+}
+.a-button-primary:hover {
+    background: purple !important;
+    border-color: violet !important;
 }
 
-#vvp-items-grid .vvp-item-tile .vvp-item-tile-content {
-  width: 75px !important;
-}
 ```
-This will make the items even smaller
+This makes the items smaller by setting ``--cust-item-tile-size`` at the top.
 
-
+The css at the bottom changes the See Details button color to use plum, purple, and violet.
 
 # Android
 For Android, we recommend a browser called "Kiwi Browser", this browser supports extensions. 
@@ -143,11 +162,14 @@ for iOS and iPadOS:
 - change the "then" condition to "inject Css from URL"
 - use the url: ```https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/mobile.css```
 
+
 ## Additional customizations
 Both are limited to custom css hosted from a url, and not css definitions saved in the stylesheets.
 
 However, you can write and host your own overrides to the styles defined in the vine-styling project. You create a .css file. You make the css changes you wish to see. 
 Then add an additional Action for your configuration, specifying the URL to your CSS file.
+
+To adjust tile sizes, if you are using mobile.css, the variable-defs.css file is not necessary. You will still need to create and host a css file that contains the redefined values.
 
 Your hosting choices are up to you, but options include
 - dropbox
