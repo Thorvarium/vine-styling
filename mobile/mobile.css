@@ -196,10 +196,6 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(100px, auto)) !important;
 }
 
-#vvp-items-grid .vvp-item-tile .vvp-item-tile-content {
-  width: 100px !important;
-}
-
 #vvp-items-grid .vvp-item-tile .vvp-item-tile-content > * {
   margin: 0 !important;
 }
@@ -234,13 +230,6 @@ body {
 
 .a-button-primary:hover {
   opacity: 0.85 !important;
-}
-
-#vvp-items-grid
-  .vvp-item-tile
-  .vvp-item-tile-content
-  > .vvp-item-product-title-container {
-  height: 40px !important;
 }
 
 /* Pagination styles */
