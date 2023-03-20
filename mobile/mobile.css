@@ -12,7 +12,7 @@ Changing the item-title-height variable should allow the rest of the grid to app
   --default-product-title-text-size: 10px;
 
   /*users can define custom  overrides by defining
-  --cust-orgin-param-name
+  --custom-orgin-param-name
 
   in another file or block that occurs before this stylesheet
 
@@ -20,25 +20,25 @@ Changing the item-title-height variable should allow the rest of the grid to app
 
   /*item-title-height is the base value for derived items*/
   --item-tile-height: var(
-    --cust-item-tile-height,
+    --custom-item-tile-height,
     var(--default-item-tile-height)
   );
 
   --calc-grid-column-width: calc(var(--item-tile-height) * 2.75);
   --grid-column-width: var(
-    --cust-item-grid-column-width,
+    --custom-item-grid-column-width,
     var(--calc-grid-column-width)
   );
 
   --calc-max-product-title: calc(var(--item-tile-height) * 1.25);
   --max-product-title: var(
-    --cust-max-product-title,
+    --custom-max-product-title,
     var(--calc-max-product-title)
   );
 
   --calc-product-title-text-size: calc(var(--item-tile-height) * 0.333);
   --product-title-text-size: var(
-    --cust-product-title-text-size,
+    --custom-product-title-text-size,
     var(--calc-product-title-text-size)
   );
 }

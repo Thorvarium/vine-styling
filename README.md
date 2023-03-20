@@ -67,7 +67,7 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 - Enables dark theme on all vine pages
 
 ## Customization
-If you want to customize just the product grid, you can place a block that will override the sizing at the very top. The stylesheet will automatically adjust a few other proportions if you define only ``--cust-item-tile-size``. 
+If you want to customize just the product grid, you can place a block that will override the sizing at the very top. The stylesheet will automatically adjust a few other proportions if you define only ``--custom-item-tile-size``. 
 
 You must have variable-defs.css included immediately below your definition. Other variables you can use are listed in the file variable-defs.css.
 
@@ -77,7 +77,7 @@ Example:
 
 ```
 :root{
-  --cust-item-tile-height:50px;
+  --custom-item-tile-height:50px;
 }
 
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/variable-defs.css)
@@ -98,7 +98,7 @@ Example:
 }
 
 ```
-This makes the items smaller by setting ``--cust-item-tile-size`` at the top.
+This makes the items smaller by setting ``--custom-item-tile-size`` at the top.
 
 The css at the bottom changes the See Details button color to use plum, purple, and violet.
 

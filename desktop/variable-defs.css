@@ -6,19 +6,19 @@ Each of the variables defined or calculated below can be overridden with a corre
   
 
 :root {
-    --cust-item-tile-height: 40px;
+    --custom-item-tile-height: 40px;
 }
 
 Here are the other variable override names
 In mobile & desktop css files:
-    --cust-grid-column-width
+    --custom-grid-column-width
 
 In just desktop css files:
-    --cust-logo-link-height
+    --custom-logo-link-height
 
 In just mobile css files:
-    --cust-max-product-title
-    --cust-product-title-text-size
+    --custom-max-product-title
+    --custom-product-title-text-size
     
 */
 :root {
@@ -28,7 +28,7 @@ In just mobile css files:
   --default-grid-column-width: 110px;
 
   /*users can define custom  overrides by defining
-    --cust-orgin-param-name
+    --custom-orgin-param-name
   
     in another file or block that occurs before this stylesheet
   
@@ -36,19 +36,19 @@ In just mobile css files:
 
   /*item-title-height is the base value for derived items*/
   --item-tile-height: var(
-    --cust-item-tile-height,
+    --custom-item-tile-height,
     var(--default-item-tile-height)
   );
 
   --calc-logo-link-height: calc(var(--item-tile-height) * 0.75);
   --logo-link-height: var(
-    --cust-logo-link-height,
+    --custom-logo-link-height,
     var(--calc-logo-link-height)
   );
 
   --calc-grid-column-width: calc(var(--item-tile-height) * 2.75);
   --grid-column-width: var(
-    --cust-item-grid-column-width,
+    --custom-item-grid-column-width,
     var(--calc-grid-column-width)
   );
 }
