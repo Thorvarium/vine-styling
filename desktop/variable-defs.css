@@ -12,13 +12,14 @@ Each of the variables defined or calculated below can be overridden with a corre
 Here are the other variable override names
 In mobile & desktop css files:
     --custom-grid-column-width
+    --custom-product-title-text-size
+
 
 In just desktop css files:
     --custom-logo-link-height
 
 In just mobile css files:
     --custom-max-product-title
-    --custom-product-title-text-size
     
 */
 :root {
@@ -26,6 +27,7 @@ In just mobile css files:
   --default-item-tile-height: 40px;
   --default-logo-link-height: 30px;
   --default-grid-column-width: 110px;
+  --default-product-title-text-size: 10px;
 
   /*users can define custom  overrides by defining
     --custom-orgin-param-name
@@ -50,5 +52,11 @@ In just mobile css files:
   --grid-column-width: var(
     --custom-item-grid-column-width,
     var(--calc-grid-column-width)
+  );
+
+  --calc-product-title-text-size: calc(var(--item-tile-height) * 0.333);
+  --product-title-text-size: var(
+    --custom-product-title-text-size,
+    var(--calc-product-title-text-size)
   );
 }
