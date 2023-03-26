@@ -25,6 +25,7 @@ https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/striped-categories.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/ghost-limited-availability.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/rfy-afa-ai-tabs.css);
+@import url(https://vine.nyc3.digitaloceanspaces.com/cutoff.css);
 
 ```
 if you want to use the dark theme, also include:
@@ -65,6 +66,8 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 - Change the product tabs text to RFY | AFA | AI
 ### dark-theme.css
 - Enables dark theme on all vine pages
+### cutoff.css
+- Highlights the items that were shared on discord on the previous day
 
 ## Customization
 If you want to customize just the product grid, you can place a block that will override the sizing at the very top. The stylesheet will automatically adjust a few other proportions if you define only ``--custom-item-tile-size``. 
