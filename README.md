@@ -68,6 +68,7 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 - Enables dark theme on all vine pages
 ### cutoff.css
 - Highlights the items that were shared on discord on the previous day
+- Change the background color by adding a setting for ``--custom-cutoff-background-color''
 
 ## Customization
 If you want to customize just the product grid, you can place a block that will override the sizing at the very top. The stylesheet will automatically adjust a few other proportions if you define only ``--custom-item-tile-size``. 

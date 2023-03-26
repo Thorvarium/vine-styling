@@ -11,8 +11,8 @@ Each of the variables defined or calculated below can be overridden with a corre
 
 Here are the other variable override names
 In mobile & desktop css files:
-    --custom-grid-column-width
-    --custom-product-title-text-size
+    --custom-grid-column-width //another method for resizing the grid and tiles
+    --custom-product-title-text-size //manually set the text size for the product title under the thumbnail
 
 
 In just desktop css files:
@@ -20,7 +20,9 @@ In just desktop css files:
 
 In just mobile css files:
     --custom-max-product-title
-    
+
+In cutoff.css
+    --custom-cutoff-background-color
 */
 :root {
   /*defaults--mostly for dev reference*/
@@ -28,6 +30,7 @@ In just mobile css files:
   --default-logo-link-height: 30px;
   --default-grid-column-width: 110px;
   --default-product-title-text-size: 10px;
+  --default-cutoff-background-color: #d1d1d1;
 
   /*users can define custom  overrides by defining
     --custom-orgin-param-name
@@ -58,5 +61,10 @@ In just mobile css files:
   --product-title-text-size: var(
     --custom-product-title-text-size,
     var(--calc-product-title-text-size)
+  );
+
+  --cutoff-background-color: var(
+    --custom-cutoff-background-color,
+    var(--default-cutoff-background-color)
   );
 }
