@@ -10,6 +10,7 @@ Changing the item-title-height variable should allow the rest of the grid to app
   --default-grid-column: 90px;
   --default-max-product-title: 100px;
   --default-product-title-text-size: 10px;
+  --default-cutoff-background-color: #d1d1d1;
 
   /*users can define custom  overrides by defining
   --custom-orgin-param-name
@@ -40,6 +41,12 @@ Changing the item-title-height variable should allow the rest of the grid to app
   --product-title-text-size: var(
     --custom-product-title-text-size,
     var(--calc-product-title-text-size)
+  );
+
+  /*used in cutoff.css file, defined here for convenience*/
+  --cutoff-background-color: var(
+    --custom-cutoff-background-color,
+    var(--default-cutoff-background-color)
   );
 }
 
