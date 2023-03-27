@@ -67,7 +67,7 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 ### dark-theme.css
 - Enables dark theme on all vine pages
 ### cutoff.css
-- Highlights the items that were shared on discord on the previous day
+- Highlights the last items that dropped on the previous day
 - Change the background color by adding a setting for ``--custom-cutoff-background-color''
 
 ## Customization
