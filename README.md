@@ -60,8 +60,8 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 - Collapses the categories on the left when not being hovered, good for when your screen is not very big
 ### striped-categories.css
 - Change alignment and background color for the categories to improve readability
-### ghost-limited-availability.css
-- Change the text "Limited Availability" on the modal to be a ghost icon on the bottom left
+### limited-quantity-icon.css
+- Change the text "Limited Quantity" on the modal to be an icon on the bottom left
 ### rfy-afa-ai-tabs.css
 - Change the product tabs text to RFY | AFA | AI
 ### dark-theme.css
