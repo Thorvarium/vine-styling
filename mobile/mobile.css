@@ -419,7 +419,7 @@ body {
 }
 
 #vvp-product-details-modal--limited-quantity::before {
-  content: "👻";
+  content: "🚨";
   font-size: 30px;
   text-shadow: 0px 0px 20px #ff0000 !important;
   color: white !important;
