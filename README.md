@@ -23,7 +23,7 @@ https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/pagination-on-top.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/collapsable-categories.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/striped-categories.css);
-@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/limited-availability.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/limited-quantity-icon.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/rfy-afa-ai-tabs.css);
 @import url(https://vine.nyc3.digitaloceanspaces.com/cutoff.css);
 
