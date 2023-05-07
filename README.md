@@ -139,7 +139,7 @@ Inside Insight Browser, go to settings and click on:
   - Change the "IF" condition to: "url matches regex"
   - give it the value: ```^https:\/\/www.amazon.com\/vine``` (in case you use smiles.amazon you can change here the www for smiles)
   - change the "then" condition to "inject Css from URL"
-  - use the url: ```https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/mobile.css```
+  - use the url: ```https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/ios-with-bugfix.css```
 
 ## Safari extension method
 There is a downloadable extension for Safari called "Hyperweb" that supports alternate stylesheets.
@@ -164,7 +164,7 @@ for iOS and iPadOS:
 - aelect "Inject CSS from URL"
 - give it the value: ```^https:\/\/www.amazon.com\/vine``` (in case you use smiles.amazon you can change here the www for smiles)
 - change the "then" condition to "inject Css from URL"
-- use the url: ```https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/mobile.css```
+- use the url: ```https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/ios-with-bugfix.css```
 
 
 ## Additional customizations
