@@ -84,7 +84,7 @@ Example:
   --custom-item-tile-height:50px;
 }
 
-@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/variable-defs.css)
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/variable-defs.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/small-items.css);
 /* ... all other imports ... */
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/collapsable-categories.css);
