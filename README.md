@@ -66,6 +66,8 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 - Change the product tabs text to RFY | AFA | AI
 ### dark-theme.css
 - Enables dark theme on all vine pages
+### item-zoom.css
+- Adds a zoom on the image when you pass the mouse over the products
 ### cutoff.css
 - Highlights the last items that dropped on the previous day
 - Change the background color by adding a setting for ``--custom-cutoff-background-color''
