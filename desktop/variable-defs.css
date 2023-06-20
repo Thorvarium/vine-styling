@@ -31,6 +31,7 @@ In cutoff.css
   --default-grid-column-width: 110px;
   --default-product-title-text-size: 10px;
   --default-cutoff-background-color: #d1d1d1;
+  --default-zoom-height: 285px;
 
   /*users can define custom  overrides by defining
     --custom-orgin-param-name
@@ -66,5 +67,10 @@ In cutoff.css
   --cutoff-background-color: var(
     --custom-cutoff-background-color,
     var(--default-cutoff-background-color)
+  );
+
+  --zoom-height: var(
+    --custom-zoom-height,
+    var(--default-zoom-height)
   );
 }
