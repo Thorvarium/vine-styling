@@ -67,7 +67,7 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 ### dark-theme.css
 - Enables dark theme on all vine pages
 ### item-zoom.css
-- Adds a zoom on the image when you pass the mouse over the products
+- Adds a zoom on the image when you pass the mouse over the products. Only works well if you do not use collapsable-categories.css
 ### cutoff.css
 - Highlights the last items that dropped on the previous day
 - Change the background color by adding a setting for ``--custom-cutoff-background-color''
