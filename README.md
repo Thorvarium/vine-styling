@@ -119,7 +119,7 @@ Inside kiwi browser you can install "Stylebot" as well:
 - Click "..." > extensions
 - Click at "+ (from store)"
 - Search for stylebot
-- Click "Add to chrome"
+- Click "Add to chrome" (it says that, but it will add to Kiwi)
 
 After installying stylebot:
 - Download the file https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/import-android.json here from the github (you can hold your finger on the link and click "Download Link")
