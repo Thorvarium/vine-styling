@@ -117,6 +117,7 @@ download: https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&
 
 Inside kiwi browser you can install "Stylebot" as well:
 - Click "..." > extensions
+- Click at "+ (from store)"
 - Search for stylebot
 - Click "Add to chrome"
 
