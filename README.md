@@ -10,7 +10,7 @@ https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/
 
 - Open stylebot options and go to the tab "Styles"
 - Click at "Add a new style..."
-- in the "Enter URL..." field use: ```https://*.amazon.com/vine*```
+- in the "Enter URL..." field use: ```https://*.amazon.com/vine*``` (or your vine url if you are not from United States)
 - in the text area below insert the styles that you desire:
 ```
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/small-items.css);
@@ -125,6 +125,7 @@ After installying stylebot:
 - Download the file https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/import-android.json here from the github (you can hold your finger on the link and click "Download Link")
 - Open stylebot options and go to the tab "Sync" (Tab Styles does not work very well on mobile, not sure why)
 - Click on "Import" and select the downloaded file
+- If you are not from united states, change the url ```https://www.amazon.com/vine``` to the respective vine url in your country
 
 
 # iPhone
@@ -144,7 +145,7 @@ Inside Insight Browser, go to settings and click on:
   - Add a extension
   - Give it any name
   - Change the "IF" condition to: "url matches regex"
-  - give it the value: ```^https:\/\/www.amazon.com\/vine``` (in case you use smiles.amazon you can change here the www for smiles)
+  - give it the value: ```^https:\/\/www.amazon.com\/vine``` (or your vine url if you are not from United States))
   - change the "then" condition to "inject Css from URL"
   - use the url: ```https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/ios-with-bugfix.css```
 
@@ -169,7 +170,7 @@ for iOS and iPadOS:
 - tap Condition Type? and select "URL matches RegEx"
 - under the "Then" section tap "Add Action"
 - aelect "Inject CSS from URL"
-- give it the value: ```^https:\/\/www.amazon.com\/vine``` (in case you use smiles.amazon you can change here the www for smiles)
+- give it the value: ```^https:\/\/www.amazon.com\/vine``` (or your vine url if you are not from United States)
 - change the "then" condition to "inject Css from URL"
 - use the url: ```https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/ios-with-bugfix.css```
 
