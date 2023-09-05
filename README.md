@@ -191,4 +191,4 @@ Your hosting choices are up to you, but options include
 ## Help 
 
 If you need any help, you can join our discord server at:
-https://discord.gg/amazonvine
+[Amazon Vine Discord](https://discord.gg/C3xDJTTGhh)
