@@ -127,6 +127,8 @@ After installying stylebot:
 - Click on "Import" and select the downloaded file
 - If you are not from united states, change the url ```https://www.amazon.com/vine``` to the respective vine url in your country
 
+On android there is also a neat app called Choose Browser https://play.google.com/store/apps/details?id=de.ub0r.android.choosebrowser&hl=en_US&gl=US that let you pick a different browser for different urls.
+For example, if you are on discord you can make all amazon clicks open on kiwi and other links open on chrome.
 
 # iPhone
 
