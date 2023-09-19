@@ -1,4 +1,10 @@
+# Vine Styling
+This is a styling package that transform vine browsing into a more pleasant experience.
 To change vine styles you can install a browser extensions that inject CSS for you automatically every time that a page load.
+
+## 🆘 Help 
+If you need any help, you can join our discord server at:
+[Amazon Vine Discord](https://discord.gg/C3xDJTTGhh)
 
 # PC
 A popular one for desktop (PC) on chrome and firefox is called stylebot, but you can use any extension that supports css injection.
@@ -190,7 +196,6 @@ Your hosting choices are up to you, but options include
 - Using a file saved in your iCloud drive https://apple.stackexchange.com/questions/352163/obtain-a-private-url-to-a-file-in-icloud-drive-without-making-the-file-available
 - Forking this project, adding a file, and linking to the "raw" URL.
 
-## Help 
-
+## 🆘 Help 
 If you need any help, you can join our discord server at:
 [Amazon Vine Discord](https://discord.gg/C3xDJTTGhh)
