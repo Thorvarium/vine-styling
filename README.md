@@ -59,7 +59,7 @@ For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-sty
 ### etv-modal-on-top.css
 - Show the ETV of the product on top of the modal instead of the bottom
 ### categories-with-emojis.css
-- Show emojis on the left side of each category
+- Show emojis on the left side of each category (if you are from UK, use desktop/categories-with-emojis-UK.css instead)
 ### pagination-on-top.css
 - Show the grid pagination on top instead of bottom
 ### collapsable-categories.css
