@@ -1,0 +1,42 @@
+.a-link-normal[href$="560798"]:before { content: "📸";}  /* Electronics & Photo */
+.a-link-normal[href$="340831031"]:before { content: "💻";}  /* Computers & Accessories */
+.a-link-normal[href$="11052681"]:before { content: "🍴";}  /* Home & Kitchen */
+.a-link-normal[href$="11961407031"]:before { content: "👚";}  /* Fashion */
+.a-link-normal[href$="65801031"]:before { content: "👨‍⚕️";}  /* Health & Personal Care */
+.a-link-normal[href$="117332031"]:before { content: "💄";}  /* Beauty */
+.a-link-normal[href$="468292"]:before { content: "🎲";}  /* Toys & Games */
+.a-link-normal[href$="340840031"]:before { content: "🐈";}  /* Pet Supplies */
+.a-link-normal[href$="318949011"]:before { content: "⚾";}  /* Sports & Outdoors */
+.a-link-normal[href$="79903031"]:before { content: "🔨";}  /* DIY & Tools */
+.a-link-normal[href$="213077031"]:before { content: "💡";}  /* Lighting */
+.a-link-normal[href$="248877031"]:before { content: "🚐";}  /* Automotive */
+.a-link-normal[href$="192413031"]:before { content: "📁";}  /* Stationery & Office Supplies */
+.a-link-normal[href$="59624031"]:before { content: "👶";}  /* Baby Products */
+.a-link-normal[href$="11052671"]:before { content: "🌳";}  /* Garden */
+.a-link-normal[href$="5866054031"]:before { content: "🔬";}  /* Business, Industry & Science */
+.a-link-normal[href$="9699254031"]:before { content: "🧤";}  /* Handmade Products */
+.a-link-normal[href$="340834031"]:before { content: "🍎";}  /* Grocery */
+.a-link-normal[href$="340837031"]:before { content: "🎹";}  /* Musical Instruments & DJ */
+.a-link-normal[href$="3146281"]:before { content: "🏡";}  /* Home & Garden */
+.a-link-normal[href$="300703"]:before { content: "🎮";}  /* PC & Video Games */
+.a-link-normal[href$="908798031"]:before { content: "📻";}  /* Large Appliances */
+.a-link-normal[href$="266239"]:before { content: "📘";}  /* Books */
+
+#vvp-browse-nodes-container {
+    width: 270px !important;
+}
+
+#vvp-browse-nodes-container .parent-node {
+    width: 250px !important;
+}
+
+#vvp-browse-nodes-container .child-node {
+  margin-left: 38px !important;
+  width: 207px !important;
+}
+
+div.parent-node > a.a-link-normal:before {
+    margin-left: 5px;
+    letter-spacing: -20px;
+    margin-right: 23px;
+}
