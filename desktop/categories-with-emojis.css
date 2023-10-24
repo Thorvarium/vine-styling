@@ -25,7 +25,6 @@
 .a-link-normal[href$="229534"]:before { content: "💽"; } /* Software */
 .a-link-normal[href$="2625373011"]:before { content: "🎥"; } /* Movies & TV */
 .a-link-normal[href$="5174"]:before { content: "💿"; } /* CDs & Vinyl */
-.a-link-normal[href$="4991425011"]:before { content: "🖼️"; } /* Collectables & Fine Art */
 
 #vvp-browse-nodes-container {
     width: 270px !important;
