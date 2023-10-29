@@ -21,6 +21,7 @@
 .a-link-normal[href$="300703"]:before { content: "🎮";}  /* PC & Video Games */
 .a-link-normal[href$="908798031"]:before { content: "📻";}  /* Large Appliances */
 .a-link-normal[href$="266239"]:before { content: "📘";}  /* Books */
+.a-link-normal[href$="3010085031"]:before { content: "🎬";}  /* Prime Video */
 
 #vvp-browse-nodes-container {
     width: 270px !important;
