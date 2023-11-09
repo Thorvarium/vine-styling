@@ -1,0 +1,39 @@
+.a-link-normal[href$="13921051"]:before { content: "📱";}  /* High-Tech */
+.a-link-normal[href$="340858031"]:before { content: "💻";}  /* Informatique */
+.a-link-normal[href$="197861031"]:before { content: "👨‍⚕️";}  /* Hygiène et Santé */
+.a-link-normal[href$="57004031"]:before { content: "🏡";}  /* Cuisine et Maison */
+.a-link-normal[href$="1571265031"]:before { content: "🚐";}  /* Auto et Moto */
+.a-link-normal[href$="3557027031"]:before { content: "🌳";}  /* Jardin */
+.a-link-normal[href$="213080031"]:before { content: "💡";}  /* Luminaires et Éclairage */
+.a-link-normal[href$="197858031"]:before { content: "💄";}  /* Beauté et Parfum */
+.a-link-normal[href$="590748031"]:before { content: "🔨";}  /* Bricolage */
+.a-link-normal[href$="325614031"]:before { content: "⚾";}  /* Sports et Loisirs */
+.a-link-normal[href$="11961521031"]:before { content: "👚";}  /* Mode */
+.a-link-normal[href$="1571268031"]:before { content: "🐈";}  /* Animalerie */
+.a-link-normal[href$="5866109031"]:before { content: "🔬";}  /* Commerce, Industrie et Science */
+.a-link-normal[href$="322086011"]:before { content: "🎲";}  /* Jeux et Jouets */
+.a-link-normal[href$="192419031"]:before { content: "📁";}  /* Fournitures de bureau */
+.a-link-normal[href$="206617031"]:before { content: "👶";}  /* Bébé et Puériculture */
+.a-link-normal[href$="340861031"]:before { content: "🎹";}  /* Instruments de musique et Sono */
+.a-link-normal[href$="3635788031"]:before { content: "🍎";}  /* Epicerie */
+.a-link-normal[href$="530490"]:before { content: "🎮";}  /* Jeux vidéo */
+.a-link-normal[href$="908826031"]:before { content: "📻";}  /* Gros électroménager */
+
+#vvp-browse-nodes-container {
+    width: 270px !important;
+}
+
+#vvp-browse-nodes-container .parent-node {
+    width: 250px !important;
+}
+
+#vvp-browse-nodes-container .child-node {
+  margin-left: 38px !important;
+  width: 207px !important;
+}
+
+div.parent-node > a.a-link-normal:before {
+    margin-left: 5px;
+    letter-spacing: -20px;
+    margin-right: 23px;
+}
