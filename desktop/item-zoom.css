@@ -1,4 +1,4 @@
-#vvp-items-grid .vvp-item-tile:hover img {
+#vvp-items-grid-container .vvp-item-tile:hover img {
     width: var(--zoom-height, 285px) !important;
     position: fixed !important;
     z-index: 1 !important;
@@ -10,11 +10,11 @@
     pointer-events: none;
 }
 
-#vvp-items-grid .vvp-item-tile:hover .vvp-item-product-title-container {
+#vvp-items-grid-container .vvp-item-tile:hover .vvp-item-product-title-container {
   border-top: calc(var(--grid-column-width, 110px) + 0.5rem) solid transparent !important;
   height: calc(var(--item-tile-height, 40px) + calc(var(--grid-column-width, 110px) + 0.5rem)) !important;
 }
 
-#vvp-items-grid .vvp-item-tile:hover img {
+#vvp-items-grid-container .vvp-item-tile:hover img {
   opacity:100%;
 }

@@ -1,4 +1,4 @@
-#vvp-items-grid
+#vvp-items-grid-container
   .vvp-item-tile
   .vvp-item-tile-content
   > .vvp-item-product-title-container {
@@ -6,7 +6,7 @@
   font-size: var(--product-title-text-size, 10px) !important;
 }
 
-#vvp-items-grid
+#vvp-items-grid-container
   .vvp-item-tile
   .vvp-item-tile-content
   > .vvp-item-product-title-container
