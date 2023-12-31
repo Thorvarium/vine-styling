@@ -39,9 +39,3 @@
   margin-left: 38px !important;
   width: 207px !important;
 }
-
-div.parent-node > a.a-link-normal:before {
-    margin-left: 5px;
-    letter-spacing: -20px;
-    margin-right: 23px;
-}
