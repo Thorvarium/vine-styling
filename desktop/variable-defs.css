@@ -1,3 +1,7 @@
+/*=======================================================
+{{ thorvarium | vine-styling | desktop | variable-defs }}
+=======================================================*/
+
 /* Amazon's original grid was based on a "item-title-height" of 80px
 Include a block with only this var if you want the simplest way to update the grid proportions
 The default css will calculate other related values

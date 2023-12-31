@@ -1,3 +1,7 @@
+/*===================================================
+{{ thorvarium | vine-styling | desktop | item-zoom }}
+===================================================*/
+
 #vvp-items-grid-container .vvp-item-tile:hover img {
     width: var(--zoom-height, 285px) !important;
     position: fixed !important;
