@@ -39,7 +39,7 @@ if you want to use the dark theme, also include:
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/dark-theme.css);
 ```
 Those are the public styles that we created, if you don't want all of them you can remove the line that represents the functionality that you do not want.
-For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/pagination-on-top.css);``` makes the pagination to be on the top of the page, just don't include this line if you dont want that.
+For example ```@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/pagination-on-top.css);``` makes the pagination to be on the top of the page, just don't include this line if you don't want that.
 
 ### variable-defs.css:
 - Use if you want to define your own tile size for the product grid
@@ -127,7 +127,7 @@ Inside kiwi browser you can install "Stylebot" as well:
 - Search for stylebot
 - Click "Add to chrome" (it says that, but it will add to Kiwi)
 
-After installying stylebot:
+After installing stylebot:
 - Download the file https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/import-android.json here from the github (you can hold your finger on the link and click "Download Link")
 - Open stylebot options and go to the tab "Sync" (Tab Styles does not work very well on mobile, not sure why)
 - Click on "Import" and select the downloaded file
@@ -138,7 +138,7 @@ For example, if you are on discord you can make all amazon clicks open on kiwi a
 
 # iPhone
 
-Both the Safari extension and alternate browser techniques use products from the company Laso Techcnologies Inc. 
+Both the Safari extension and alternate browser techniques use products from the company Laso Technologies Inc. 
 
 
 ## Alternative browser method
@@ -169,7 +169,7 @@ custom css docs: https://guide.hyperweb.app/styling/custom-css/
 Hyperweb also works on desktop Mac and PC for Chrome and Firefox. You may determine you prefer the performance of a different browser and extension.
 
 for iOS and iPadOS:
-- open the Hyperbrowser app
+- open the Hyperweb app
 - follow the instructions to change your settings
 - tap "Advanced" in the bottom bar
 - tap "Create Local Extension"
@@ -177,7 +177,7 @@ for iOS and iPadOS:
 - tap + next to New Condition
 - tap Condition Type? and select "URL matches RegEx"
 - under the "Then" section tap "Add Action"
-- aelect "Inject CSS from URL"
+- select "Inject CSS from URL"
 - give it the value: ```^https:\/\/www.amazon.com\/vine``` (or your vine url if you are not from United States)
 - change the "then" condition to "inject Css from URL"
 - use the url: ```https://raw.githubusercontent.com/Thorvarium/vine-styling/main/mobile/ios-with-bugfix.css```
