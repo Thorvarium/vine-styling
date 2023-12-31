@@ -1,3 +1,7 @@
+/*================================================================
+{{ thorvarium | vine-styling | desktop | collapsible-categories }}
+================================================================*/
+
 #vvp-browse-nodes-container {
   transition: width 0.5s !important;
 }

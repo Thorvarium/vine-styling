@@ -1,3 +1,7 @@
+/*================================================================
+{{ thorvarium | vine-styling | desktop | categories-with-emojis }}
+================================================================*/
+
 /* emoji list: https://html-css-js.com/html/character-codes/ */
 
 .a-link-normal[href$="1055398"]:before { content: "🏠";}  /* Home & Kitchen */

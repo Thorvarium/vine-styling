@@ -1,3 +1,7 @@
+/*===================================================================
+{{ thorvarium | vine-styling | desktop | categories-with-emojis-uk }}
+===================================================================*/
+
 .a-link-normal[href$="560798"]:before { content: "📸";}  /* Electronics & Photo */
 .a-link-normal[href$="340831031"]:before { content: "💻";}  /* Computers & Accessories */
 .a-link-normal[href$="11052681"]:before { content: "🍴";}  /* Home & Kitchen */
