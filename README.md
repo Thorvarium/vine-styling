@@ -31,7 +31,7 @@ https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/striped-categories.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/limited-quantity-icon.css);
 @import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/rfy-afa-ai-tabs.css);
-@import url(https://vine.nyc3.digitaloceanspaces.com/cutoff.css);
+@import url(https://file.llamastories.com/cutoff.css);
 
 ```
 if you want to use the dark theme, also include:
