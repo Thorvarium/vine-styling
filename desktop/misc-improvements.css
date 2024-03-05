@@ -1,0 +1,482 @@
+/** --- By Lelouch vi Britannia#1876 --- **/
+
+/*** == Scrollable messages == ***/
+.a-popover-modal-fixed-height #a-popover-content-2 {
+    height: calc(100% - 150px) !important;
+    overflow-y: scroll !important;
+}
+
+/*** == Glowing "Opt out of Vine" button == ***/
+#vvp-opt-out-of-vine-button {
+    background-color: red;
+}
+
+#vvp-opt-out-of-vine-button:hover {
+    background-color: #d10000;
+}
+
+#vvp-opt-out-of-vine-button:focus, #vvp-opt-out-of-vine-button:active {
+    background-color: #930000;
+    box-shadow: 0 0 0 3px #ff000040, inset 0 0 0 2px #ff000040;
+    border-color: #960000;
+}
+
+#vvp-opt-out-of-vine-button > .a-button-inner > .a-button-text {
+    color: white;
+}
+
+@keyframes glowing {
+    0% {
+        border-color: #9c0000;
+        background: #9c0000;
+        box-shadow: 0 0 3px #9c0000;
+    }
+
+    50% {
+        border-color: red;
+        background: red;
+        box-shadow: 0 0 25px red;
+    }
+
+    100% {
+        border-color: #9c0000;
+        background: #9c0000;
+        box-shadow: 0 0 3px #9c0000;
+    }
+}
+
+#vvp-opt-out-of-vine-button {
+    animation: glowing 3000ms infinite;
+}
+
+#vvp-opt-out-of-vine-button:hover {
+    animation: glowing 1500ms linear infinite;
+}
+
+#vvp-opt-out-of-vine-button:active, #vvp-opt-out-of-vine-button:focus {
+    animation: glowing 500ms linear infinite;
+}
+
+/*** == Fancy tier colors == ***/
+/*** -- Silver tier -- ***/
+#vvp-current-status-box h1.vvp-aqua:has(span#vvp-silver-tier-label), #vvp-silver-status-perks-display strong {
+    color: #C0C0C0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#C0C0C0), to(#979696));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-weight: 900;
+    position: relative;
+}
+
+/* shine layer */
+#vvp-current-status-box h1.vvp-aqua:has(span#vvp-silver-tier-label)::before {
+    background-position: -180px;
+    -webkit-animation: flare 8s infinite;
+    -webkit-animation-timing-function: linear;
+    background-image: linear-gradient(65deg, transparent 20%, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.3) 27%, transparent 27%, transparent 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    content: "Silver";
+    color: #FFF;
+    padding-right: 150px;
+    position: absolute;
+}
+
+/*** -- Gold tier -- ***/
+#vvp-current-status-box h1.vvp-aqua:has(span#vvp-gold-tier-label), #vvp-gold-status-perks-display strong {
+    color: #F5C21B;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F5C21B), to(#D17000));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-weight: 900;
+    position: relative;
+}
+
+/*
+#vvp-gold-status-perks-display strong {
+    background: -webkit-gradient(linear, left top, left bottom, from(#F5C21B), to(#d69600));
+    -webkit-background-clip: text;
+}
+*/
+/* shine layer */
+#vvp-current-status-box h1.vvp-aqua:has(span#vvp-gold-tier-label)::before {
+    background-position: -180px;
+    -webkit-animation: flare 8s infinite;
+    -webkit-animation-timing-function: linear;
+    background-image: linear-gradient(65deg, transparent 20%, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.3) 27%, transparent 27%, transparent 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    content: "Gold";
+    color: #FFF;
+    padding-right: 150px;
+    position: absolute;
+}
+
+#vvp-current-status-box h1.vvp-aqua:has(span#vvp-gold-tier-label)::after {
+    content: "Gold";
+    color: #FFF;
+    display: block;
+    position: absolute;
+    text-shadow: 0 1px #6E4414, 0 2px #6E4414, 0 3px #6E4414, 0 4px #6E4414, 0 5px #6E4414, 0 6px #6E4414, 0 7px #6E4414, 0 8px #6E4414, 0 9px #6E4414, 0 10px #6E4414;
+    top: 0;
+    padding-top: 2px;
+    z-index: -1;
+}
+
+/* Perks */
+#vvp-gold-status-perks-display > ul > li:nth-child(1) strong::before {
+    content: "8 items per day";
+    font-weight: 900;
+}
+
+#vvp-gold-status-perks-display > ul > li:nth-child(2) strong::before {
+    content: "any amount";
+    background-position: -50px;
+}
+
+#vvp-gold-status-perks-display > ul > li strong::before {
+    background-position: 0px;
+    /*-webkit-animation: flare-small 8s linear infinite;
+    background-image: linear-gradient(65deg, transparent 20%, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.3) 27%, transparent 27%, transparent 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    */
+    color: #FFF;
+    position: absolute;
+}
+
+#vvp-silver-status-perks-display > ul > li:nth-child(1) strong::before {
+    content: "3 items per day";
+    font-weight: 900;
+}
+
+#vvp-silver-status-perks-display > ul > li:nth-child(2) strong::before {
+    content: "$100.00";
+    background-position: -50px;
+}
+
+#vvp-silver-status-perks-display > ul > li strong::before {
+    background-position: 0px;
+    /*-webkit-animation: flare-small 8s linear infinite;
+    background-image: linear-gradient(65deg, transparent 20%, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.3) 27%, transparent 27%, transparent 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    */
+    color: #FFF;
+    position: absolute;
+}
+
+/* sparkle effect */
+#vvp-gold-tier-label::after, #vvp-gold-tier-label::before {
+    -webkit-animation: sparkle 2s infinite;
+    -webkit-animation-timing-function: linear;
+    background: #FFF;
+    border-radius: 100%;
+    box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #FFF, 0 0 25px #FFF, 0 0 30px #FFF, 0 0 35px #FFF;
+    content: "";
+    display: block;
+    height: 10px;
+    opacity: 0.7;
+    position: absolute;
+    width: 10px;
+}
+
+/* left sparkle */
+#vvp-gold-tier-label::before {
+    -webkit-animation-delay: 0.2s;
+    height: 3px;
+    left: 0.1em;
+    top: 0.85em;
+    width: 3px;
+}
+
+/* right sparkle */
+#vvp-gold-tier-label::after {
+    top: 0.19em;
+    right: 0px;
+    width: 3px;
+    height: 3px;
+}
+
+@-webkit-keyframes sparkle {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.8;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes flare {
+    0% {
+        background-position: -180px;
+    }
+
+    100% {
+        background-position: 500px;
+    }
+}
+
+@-webkit-keyframes flare-small {
+    0% {
+        background-position: 0px;
+    }
+
+    100% {
+        background-position: 300px;
+    }
+}
+
+@-webkit-keyframes progress-sheen {
+    0% {
+        background-position: -180px;
+    }
+
+    100% {
+        background-position: 420px;
+    }
+}
+
+/* Changing "Fair market value" to "Estimated taxable value" for simplicity */
+#vvp-orders-table--tax-value-heading {
+    color: transparent;
+}
+
+#vvp-orders-table--tax-value-heading::after {
+    margin-left: -115px;
+    color: initial;
+    content: "Estimated taxable value" !important;
+}
+
+/*** --- Awaiting Review Tab --- ***/
+/* Hide "Review" column, since that column is meaningless in this tab */
+.a-section.vvp-tab-content:has(#vvp-reviews-button--pending[aria-checked="true"]) .vvp-reviews-table--row > .vvp-reviews-table--text-col:nth-child(4):not([data-review-content]) {
+    display: none;
+}
+
+.a-section.vvp-tab-content:has(#vvp-reviews-button--pending[aria-checked="true"]) .vvp-reviews-table--heading-row > .vvp-reviews-table--text-col:nth-child(4):not([data-review-content]) {
+    display: none;
+}
+
+/* Deleted items */
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-reviews-table--text-col:not(.a-link-normal)) .vvp-reviews-table--text-col:nth-child(4):not([data-review-content]) {
+    color: transparent;
+}
+
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-subtitle-color) .vvp-reviews-table--text-col:nth-child(4):not([data-review-content]):before {
+    background-image: url(https://m.media-amazon.com/images/S/sash/ZNt8quAxIfEMMky.png);
+    background-position: -451px -421px;
+    content: "";
+    padding: 2px 15px 2px 5px;
+    background-size: 512px 512px;
+    background-repeat: no-repeat;
+}
+
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-subtitle-color) .vvp-reviews-table--text-col:nth-child(4):not([data-review-content]):after {
+    content: "Unable to review";
+    color: initial;
+    margin-left: -98px;
+}
+
+/*** --- Reviewed Tab --- ***/
+/* Replace "Not yet reviewed" with "Review pending approval" */
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row > .vvp-reviews-table--text-col:nth-child(4):not([data-review-content]) {
+    color: transparent;
+}
+
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-reviews-table--text-col:nth-child(4):not([data-review-content])) {
+    background: rgba(255, 255, 0, .125);
+}
+
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row > .vvp-reviews-table--text-col:nth-child(4):not([data-review-content]):before {
+    background-image: url(https://m.media-amazon.com/images/S/sash/ZNt8quAxIfEMMky.png);
+    background-position: -257px -352px;
+    content: "";
+    padding: 2px 10px 2px 10px;
+    background-size: 512px 512px;
+    background-repeat: no-repeat;
+}
+
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row > .vvp-reviews-table--text-col:nth-child(4):not([data-review-content]):after {
+    content: "Review pending approval";
+    color: initial;
+    margin-left: -98px;
+    font-weight: 900;
+}
+
+/* Deleted items */
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-subtitle-color):has(.vvp-reviews-table--text-col:nth-child(4):not([data-review-content])), .a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-subtitle-color):has(.vvp-reviews-table--actions-col:empty) {
+    background: rgba(255, 0, 0, .125);
+}
+
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-subtitle-color):has(.vvp-reviews-table--actions-col:empty) {
+    background: transparent;
+}
+
+/*
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-reviews-table--text-col:not(.a-link-normal)) .vvp-reviews-table--text-col:nth-child(4):not([data-review-content]):before:hover {
+    color: white;
+    content: "Contact Vine customer service to get this product removed from your Review list.";
+}
+*/
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-subtitle-color) .vvp-reviews-table--text-col:nth-child(4):not([data-review-content]):before, .a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-subtitle-color) .vvp-reviews-table--actions-col:nth-child(4):empty:before {
+    background-image: url(https://m.media-amazon.com/images/S/sash/ZNt8quAxIfEMMky.png);
+    background-position: -451px -420px;
+    content: "";
+    padding: 2px 15px 2px 5px;
+    background-size: 512px 512px;
+    background-repeat: no-repeat;
+}
+
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-subtitle-color) .vvp-reviews-table--text-col:nth-child(4):not([data-review-content]):after, .a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-subtitle-color) .vvp-reviews-table--actions-col:nth-child(4):empty:after {
+    content: "Cannot be reviewed";
+    color: initial;
+    margin-left: -98px;
+    font-weight: 900;
+}
+
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-subtitle-color) .vvp-reviews-table--actions-col:nth-child(4):empty {
+    display: table-cell;
+    padding: 15px;
+}
+
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row:has(.vvp-subtitle-color) .vvp-reviews-table--actions-col:nth-child(4):empty:after {
+    content: "Review approved, but item deleted :(";
+    margin-left: 9px;
+    margin-top: 25px;
+}
+
+/* Fixing the ugly "You have reviewed this item" bug */
+.a-section.vvp-tab-content:not(div, table) {
+    display: none;
+}
+
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]):has(.vvp-reviews-table--actions-col:nth-child(4):empty) .vvp-reviews-table--heading-top {
+    top: 20px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]):has(.vvp-reviews-table--actions-col:nth-child(4):empty) .vvp-items-button-and-search-container {
+    margin-bottom: 0px;
+}
+
+/* Changing "Review Item" button since it already has been reviewed and is just pending */
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row > .vvp-reviews-table--actions-col > .a-button-primary.vvp-reviews-table--action-btn > .a-button-inner > .a-button-text {
+    color: transparent !important;
+}
+
+.a-section.vvp-tab-content:has(#vvp-reviews-button--completed[aria-checked="true"]) .vvp-reviews-table--row > .vvp-reviews-table--actions-col > .a-button-primary.vvp-reviews-table--action-btn > .a-button-inner > .a-button-text:after {
+    content: "Edit review";
+    color: initial !important;
+    margin-left: -74px;
+}
+
+/* Adding fuel gauge-style progress bars to Accounts page */
+.animated-progress {
+    background: linear-gradient(to right, red, red 15%, yellow, yellow 65%, green, green 100%);
+    background: linear-gradient(to right, red, orange, yellow, lime, green);
+    background: linear-gradient(to right, red, yellow, #32cd32);
+}
+
+.animated-progress span {
+    background: transparent;
+    background-size: 100% 100%;
+    overflow: unset !important;
+    padding-right: unset;
+}
+
+.animated-progress span::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    background: #F0F2F2;
+    background-size: 100% 100%;
+    opacity: 1;
+    width: calc(100% + 300px);
+    height: 100%;
+    overflow: unset;
+}
+
+div.animated-progress progress-green::after {
+    color: white;
+}
+
+.animated-progress:has(span[data-progress*="69"]) {
+    background: linear-gradient(to right, hsl(0, 100%, 40%), hsl(39, 100%, 35%), hsl(60, 100%, 35%));
+    background: hsl(180, 100%, 35%);
+}
+
+.animated-progress:has(span[data-progress*="69"]) {
+    animation: rainbow 5s linear infinite;
+}
+
+.animated-progress:has(span[data-progress*="69"]):after {
+    color: white;
+    content: "( ͡° ͜ʖ ͡°) ( ͡° ͜ʖ ͡°) ( ͡° ͜ʖ ͡°)";
+    margin-left: 15px;
+    letter-spacing: 2px;
+    position: absolute;
+    margin-top: -1px;
+    opacity: 0;
+    animation: special 2s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+@keyframes special {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.progress-green span[data-progress*="100"] {
+    background-color: gold;
+}
+
+#vvp-num-reviewed-metric-display .progress-green span[data-progress*="100"], .progress-green span[style="overflow: hidden; width: 100%;"] {
+    background: -webkit-gradient(linear, left top, left bottom, from(#F5C21B), to(#D17000));
+    /*
+    -webkit-animation: progress-sheen 2s linear infinite;
+    background-image: linear-gradient(65deg, transparent 20%, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.3) 27%, transparent 27%, transparent 100%);
+    */
+    position: absolute;
+}
+
+#vvp-num-reviewed-metric-display .progress-green:has(span[data-progress*="100"]), .progress-green span[style="overflow: hidden; width: 100%;"] {
+    background: -webkit-gradient(linear, left top, left bottom, from(#F5C21B), to(#D17000));
+}
+
+/*** --- Miscellaneous --- ***/
+/* Fixing a small visual oddity with the feedback rating */
+.a-icon.a-star-medium-5 {
+    background-position: -99px -365px;
+}
