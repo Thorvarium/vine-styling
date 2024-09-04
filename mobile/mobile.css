@@ -555,3 +555,7 @@ body {
   .a-truncate {
   max-height: var(--max-product-title) !important;
 }
+
+#p13n-bottom-sheet-profile-picker-root {
+  display: none !important;
+}
